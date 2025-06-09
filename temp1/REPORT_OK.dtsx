@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="REPORT_A"
   DTS:PackageType="5"
-  DTS:VersionBuild="43"
-  DTS:VersionGUID="{CD9C2CC3-2E7B-4785-B662-DE5E2E82E2B7}">
+  DTS:VersionBuild="80"
+  DTS:VersionGUID="{169A84D5-1C89-43ED-8476-38E3D93F07D6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -931,434 +931,430 @@
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="128"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CRASH_RECORD_ID"
-              DTS:DTSID="{DC41E54B-8422-412D-A574-89F8C57F0A45}"
+              DTS:DTSID="{EB0554A3-9F97-4FBD-A62F-B33026B9D526}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="1"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CRASH_DATE_EST_I"
-              DTS:DTSID="{BA185B83-FAB6-4D82-A491-ECF173629F46}"
+              DTS:DTSID="{5280CC2E-B11C-42DA-9EB7-B75AA9A50C6D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="CRASH_DATE"
-              DTS:DTSID="{236C70DE-6001-4069-BDFF-A715AB2250D7}"
+              DTS:DTSID="{6FAD8345-19C8-4110-9CA9-851B57F88A6A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="POSTED_SPEED_LIMIT"
-              DTS:DTSID="{4461F334-6AB3-4ED2-AD7B-C189F4838895}"
+              DTS:DTSID="{D22CFF10-FDA1-4D7C-897C-1C6B37D235D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TRAFFIC_CONTROL_DEVICE"
-              DTS:DTSID="{5BDEDC5C-8284-4B19-89A7-630EEB082065}"
+              DTS:DTSID="{39B7E2B5-1F11-4843-83A9-4839373CAB44}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DEVICE_CONDITION"
-              DTS:DTSID="{A9000509-E27B-4137-BE7E-461C1DCD6BCE}"
+              DTS:DTSID="{D5C36E10-4982-4AE7-8DAB-C18A632B3602}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="22"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WEATHER_CONDITION"
-              DTS:DTSID="{D6F340D0-7FB7-4229-BE3D-F57E0E351C5D}"
+              DTS:DTSID="{52C36ECD-39FC-4DDC-BC8E-DC528FED03F4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="9"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LIGHTING_CONDITION"
-              DTS:DTSID="{F7D590A3-5C2F-4729-9CAA-D3B3E6C10C3F}"
+              DTS:DTSID="{99CBF7D2-E256-4678-9838-63A56B8E4DF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="28"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FIRST_CRASH_TYPE"
-              DTS:DTSID="{226BB352-593C-45FC-9F58-74837D1715E7}"
+              DTS:DTSID="{6740660E-50D8-4A6A-8CCD-01F4C22C060C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="31"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TRAFFICWAY_TYPE"
-              DTS:DTSID="{8C1C5BF0-6FBE-495B-A7D2-7A0819F0D7EC}"
+              DTS:DTSID="{70540062-9CF2-4906-87AD-989A31687F99}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="31"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LANE_CNT"
-              DTS:DTSID="{BC976CDE-3B5F-4DC4-9895-08FB7995BF06}"
+              DTS:DTSID="{46DABC55-238E-4BF2-B50A-5B3429E615AD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="31"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ALIGNMENT"
-              DTS:DTSID="{DE519A68-448B-4C26-A252-0A2A95914283}"
+              DTS:DTSID="{F6D35211-8DD5-4FB8-9E9B-336643926369}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="21"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ROADWAY_SURFACE_COND"
-              DTS:DTSID="{A38739E8-050F-432D-AFA7-FBB5EB8F5FCF}"
+              DTS:DTSID="{52EC35A6-9E86-474A-8029-79FFD85024CB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="18"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ROAD_DEFECT"
-              DTS:DTSID="{6D7BE47A-7409-4903-BE8A-EBF0DF1931BA}"
+              DTS:DTSID="{7C68014B-1468-468A-AAC1-FAF9FFB0DB8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="26"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="REPORT_TYPE"
-              DTS:DTSID="{FDEA309D-C60F-4409-948F-B94BF50C1FE7}"
+              DTS:DTSID="{7DD8E679-8101-4EB9-9348-3ABC4A8BFC2E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="32"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CRASH_TYPE"
-              DTS:DTSID="{037FEAA1-7448-42CF-9E7C-5E26868A9D5D}"
+              DTS:DTSID="{082175E6-701A-4177-A624-BBA775B07A81}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="32"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INTERSECTION_RELATED_I"
-              DTS:DTSID="{CE10FA64-BC92-4E3E-88B7-016080BB5F7C}"
+              DTS:DTSID="{A444B5F0-9A5D-42FC-9687-79F624DE7102}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="32"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NOT_RIGHT_OF_WAY_I"
-              DTS:DTSID="{6130F544-B6A0-474E-B474-90C10F0FCED7}"
+              DTS:DTSID="{CD569743-7A6A-4361-AF13-705FCDD6DC20}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="1"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HIT_AND_RUN_I"
-              DTS:DTSID="{CA26C410-5556-4CE9-AD67-B9ED10D47A97}"
+              DTS:DTSID="{B1EBCE36-568B-48AB-AEE5-0A092D45FEC6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="12"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DAMAGE"
-              DTS:DTSID="{91625080-D131-4093-B096-3D4CA494B69A}"
+              DTS:DTSID="{4055D167-391F-4FB7-A31C-C1FE5A9D3618}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="DATE_POLICE_NOTIFIED"
-              DTS:DTSID="{CCC60C7C-7217-43BF-9833-D6E062A10125}"
+              DTS:DTSID="{D2196FB1-8B17-4528-975F-674FA984C31C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="47"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PRIM_CONTRIBUTORY_CAUSE"
-              DTS:DTSID="{DA88DFAF-7E1F-434C-BF56-81B04DA540CC}"
+              DTS:DTSID="{20AF9142-4CAF-4D00-BBAD-A158BFA17F7F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="66"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SEC_CONTRIBUTORY_CAUSE"
-              DTS:DTSID="{3D93D673-1879-4C0C-B022-88A9662A77C2}"
+              DTS:DTSID="{231CB5CB-6722-4874-B3F0-E917CCA38274}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="66"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STREET_NO"
-              DTS:DTSID="{F9B28FD5-F12B-4C1F-AD10-6C03765899C2}"
+              DTS:DTSID="{13199B31-83E5-40A1-BA84-15DD0AE8B6BE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="66"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STREET_DIRECTION"
-              DTS:DTSID="{70D6B46B-4B64-4D88-818C-9498050C5F0C}"
+              DTS:DTSID="{9936C2D1-49D9-48FA-A5E5-17DA5A748A43}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="40"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STREET_NAME"
-              DTS:DTSID="{94C71ED3-E37C-4C7C-A383-80C09F07FDB8}"
+              DTS:DTSID="{9E3262F3-7611-4FF5-A1DE-309D2DEC95D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="38"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BEAT_OF_OCCURRENCE"
-              DTS:DTSID="{71A7AD78-46BF-44D2-A006-232177EFF762}"
+              DTS:DTSID="{F7C88F63-B344-455A-91D4-C3F865C2676E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="66"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PHOTOS_TAKEN_I"
-              DTS:DTSID="{9BB48494-5444-4C1A-BBEE-A2390CB730A1}"
+              DTS:DTSID="{3BC42E34-6D9A-45EB-975B-2DD98783DDF1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="32"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STATEMENTS_TAKEN_I"
-              DTS:DTSID="{C6B1E2DE-D879-44A0-B30B-F39F9355ED35}"
+              DTS:DTSID="{0A68E31D-B8D3-4139-B81D-4C437C3ADEA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="32"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DOORING_I"
-              DTS:DTSID="{3EB1876C-D129-41BB-B3BE-4513B48D0BDA}"
+              DTS:DTSID="{DD5BA711-EE85-48E9-A6B6-A8C7FAEE9037}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="32"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WORK_ZONE_I"
-              DTS:DTSID="{6435F862-4C88-45E6-9B6E-454F08C4DDC6}"
+              DTS:DTSID="{47D0D41D-B547-48FB-91E7-7EFE199F9FCE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="19"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WORK_ZONE_TYPE"
-              DTS:DTSID="{08059945-ADE9-4AF2-A1CD-9F1291F455D2}"
+              DTS:DTSID="{E1A86CD1-6CAC-4C69-B889-99545C700060}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="15"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WORKERS_PRESENT_I"
-              DTS:DTSID="{879ECBF7-B476-4BC4-9CE1-AEE334471E32}"
+              DTS:DTSID="{B37B40DD-FCB5-4183-9F47-62FE5F9DEA0F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="13"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NUM_UNITS"
-              DTS:DTSID="{E3AC4A24-1635-4E62-B009-818B2E2C832C}"
+              DTS:DTSID="{2C084FD1-FE19-42D3-A510-57A82DF6FDF0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MOST_SEVERE_INJURY"
-              DTS:DTSID="{EE3EED5B-C3F9-4E78-9E43-3C929637C562}"
+              DTS:DTSID="{AABB85F0-2C6E-4B88-9AEC-E23C2029D1D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INJURIES_TOTAL"
-              DTS:DTSID="{D4826D75-6291-4DAB-A3B9-9FD4A1708C81}"
+              DTS:DTSID="{A8329494-FE38-4761-95B7-44A1E92A0F46}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INJURIES_FATAL"
-              DTS:DTSID="{719BE609-6DBF-49F3-865D-2DE914E28ED7}"
+              DTS:DTSID="{383081F2-7B51-40EC-8691-0E31AE6C4656}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INJURIES_INCAPACITATING"
-              DTS:DTSID="{52AFB9F1-E923-4A3F-9385-02791DDC050D}"
+              DTS:DTSID="{D1ABF6FA-2C67-4C67-91A1-8D9B2B33D463}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INJURIES_NON_INCAPACITATING"
-              DTS:DTSID="{F3B3073E-DD63-40FE-9473-DEA1E017435D}"
+              DTS:DTSID="{2E014046-E9F3-4800-8813-232AF8E975A7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INJURIES_REPORTED_NOT_EVIDENT"
-              DTS:DTSID="{2AC47A5B-5E82-466C-9AEA-64D4D0B88FB2}"
+              DTS:DTSID="{11C8ECBC-83A7-46DC-A730-0394D1465FDB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INJURIES_NO_INDICATION"
-              DTS:DTSID="{EC16A9B1-B421-4DF7-A9FE-2D130D653DBD}"
+              DTS:DTSID="{900324CF-DCFD-4009-9EB0-61E93C2C34AA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="24"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="INJURIES_UNKNOWN"
-              DTS:DTSID="{4B3669BE-52A9-4AC1-8975-47A67DB46BBA}"
+              DTS:DTSID="{362A8BE8-0FA5-4F1D-B00F-2E27D692741F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="23"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CRASH_HOUR"
-              DTS:DTSID="{4B4B685E-6CB0-4F68-B8A1-B809A23937D6}"
+              DTS:DTSID="{24A03905-D227-42B8-8661-E4C369F24A79}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="23"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CRASH_DAY_OF_WEEK"
-              DTS:DTSID="{A5483E2E-840B-4F7E-B40E-D28519ACFF1F}"
+              DTS:DTSID="{43A6DA3B-C6B8-41E5-9775-DFB8E8E54743}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="CRASH_MONTH"
-              DTS:DTSID="{4F090FA9-1A95-4649-9EDB-6344DF06C766}"
+              DTS:DTSID="{8D5D6E03-A173-48FA-AC7D-E180492A2BA9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="11"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LATITUDE"
-              DTS:DTSID="{A1C55BA1-60FA-44D8-B3C9-9EBC501BA308}"
+              DTS:DTSID="{24FBE8F4-CD23-478F-8FBF-FBF233BA6773}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="12"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LONGITUDE"
-              DTS:DTSID="{957C5919-76B0-4829-B7AA-3B370E9E6644}"
+              DTS:DTSID="{75CCDECB-5CEC-4D5F-82C7-2BF78A1FF3E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="41"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LOCATION"
-              DTS:DTSID="{221741FC-EDBA-4B64-8B16-3D2B1E3B7C22}"
+              DTS:DTSID="{E056758A-635A-4AA9-A10E-FEDF571350E8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1397,7 +1393,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[REPORT_TYPE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="26"
                       cachedName="REPORT_TYPE"
                       cachedSortKeyPosition="1"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[REPORT_TYPE]" />
@@ -1405,7 +1401,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[CRASH_TYPE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="32"
                       cachedName="CRASH_TYPE"
                       cachedSortKeyPosition="2"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_TYPE]" />
@@ -1413,7 +1409,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[INTERSECTION_RELATED_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="INTERSECTION_RELATED_I"
                       cachedSortKeyPosition="3"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INTERSECTION_RELATED_I]" />
@@ -1421,7 +1417,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[NOT_RIGHT_OF_WAY_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="NOT_RIGHT_OF_WAY_I"
                       cachedSortKeyPosition="4"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NOT_RIGHT_OF_WAY_I]" />
@@ -1429,7 +1425,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[HIT_AND_RUN_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="HIT_AND_RUN_I"
                       cachedSortKeyPosition="5"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[HIT_AND_RUN_I]" />
@@ -1437,13 +1433,13 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[DAMAGE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="13"
                       cachedName="DAMAGE"
                       cachedSortKeyPosition="6"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DAMAGE]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[DATE_POLICE_NOTIFIED]"
-                      cachedCodepage="1252"
+                      cachedCodepage="1250"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="DATE_POLICE_NOTIFIED"
@@ -1453,7 +1449,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[PRIM_CONTRIBUTORY_CAUSE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="80"
                       cachedName="PRIM_CONTRIBUTORY_CAUSE"
                       cachedSortKeyPosition="8"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PRIM_CONTRIBUTORY_CAUSE]" />
@@ -1461,7 +1457,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[SEC_CONTRIBUTORY_CAUSE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="80"
                       cachedName="SEC_CONTRIBUTORY_CAUSE"
                       cachedSortKeyPosition="9"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[SEC_CONTRIBUTORY_CAUSE]" />
@@ -1469,7 +1465,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[CRASH_DATE_EST_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="CRASH_DATE_EST_I"
                       cachedSortKeyPosition="10"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE_EST_I]" />
@@ -1477,13 +1473,13 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[DOORING_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="DOORING_I"
                       cachedSortKeyPosition="11"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DOORING_I]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[LANE_CNT]"
-                      cachedCodepage="1252"
+                      cachedCodepage="1250"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="LANE_CNT"
@@ -1491,7 +1487,7 @@
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LANE_CNT]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[NUM_UNITS]"
-                      cachedCodepage="1252"
+                      cachedCodepage="1250"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="NUM_UNITS"
@@ -1501,7 +1497,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[MOST_SEVERE_INJURY]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="24"
                       cachedName="MOST_SEVERE_INJURY"
                       cachedSortKeyPosition="14"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[MOST_SEVERE_INJURY]" />
@@ -1509,7 +1505,7 @@
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[FIRST_CRASH_TYPE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="28"
                       cachedName="FIRST_CRASH_TYPE"
                       cachedSortKeyPosition="15"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[FIRST_CRASH_TYPE]" />
@@ -1544,11 +1540,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of REPORT_TYPE]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of REPORT_TYPE]"
                       name="Copy of REPORT_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1565,11 +1561,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CRASH_TYPE]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CRASH_TYPE]"
                       name="Copy of CRASH_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1586,11 +1582,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of INTERSECTION_RELATED_I]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of INTERSECTION_RELATED_I]"
                       name="Copy of INTERSECTION_RELATED_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1607,11 +1603,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of NOT_RIGHT_OF_WAY_I]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of NOT_RIGHT_OF_WAY_I]"
                       name="Copy of NOT_RIGHT_OF_WAY_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1628,11 +1624,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of HIT_AND_RUN_I]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of HIT_AND_RUN_I]"
                       name="Copy of HIT_AND_RUN_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1649,11 +1645,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DAMAGE]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DAMAGE]"
                       name="Copy of DAMAGE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1670,10 +1666,10 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DATE_POLICE_NOTIFIED]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DATE_POLICE_NOTIFIED]"
                       name="Copy of DATE_POLICE_NOTIFIED"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1690,11 +1686,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PRIM_CONTRIBUTORY_CAUSE]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PRIM_CONTRIBUTORY_CAUSE]"
                       name="Copy of PRIM_CONTRIBUTORY_CAUSE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1711,11 +1707,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SEC_CONTRIBUTORY_CAUSE]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SEC_CONTRIBUTORY_CAUSE]"
                       name="Copy of SEC_CONTRIBUTORY_CAUSE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1732,11 +1728,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CRASH_DATE_EST_I]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CRASH_DATE_EST_I]"
                       name="Copy of CRASH_DATE_EST_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1753,11 +1749,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DOORING_I]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DOORING_I]"
                       name="Copy of DOORING_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1772,12 +1768,12 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LANE_CNT]"
-                      dataType="ui8"
+                      dataType="i2"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LANE_CNT]"
                       name="Copy of LANE_CNT"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1792,12 +1788,12 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of NUM_UNITS]"
-                      dataType="i4"
+                      dataType="i1"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of NUM_UNITS]"
                       name="Copy of NUM_UNITS"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1814,11 +1810,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of MOST_SEVERE_INJURY]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of MOST_SEVERE_INJURY]"
                       name="Copy of MOST_SEVERE_INJURY"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1835,11 +1831,11 @@
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of FIRST_CRASH_TYPE]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of FIRST_CRASH_TYPE]"
                       name="Copy of FIRST_CRASH_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -1853,32 +1849,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy (2) of NOT_RIGHT_OF_WAY_I]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy (2) of NOT_RIGHT_OF_WAY_I]"
-                      name="Copy (2) of NOT_RIGHT_OF_WAY_I"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NOT_RIGHT_OF_WAY_I]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PHOTOS_TAKEN_I]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="1"
+                      length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PHOTOS_TAKEN_I]"
                       name="Copy of PHOTOS_TAKEN_I"
                       truncationRowDisposition="FailComponent">
@@ -1899,7 +1874,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="1"
+                      length="500"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of STATEMENTS_TAKEN_I]"
                       name="Copy of STATEMENTS_TAKEN_I"
                       truncationRowDisposition="FailComponent">
@@ -1978,12 +1953,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[REPORT_TYPE]"
-                      length="50"
+                      length="26"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[REPORT_TYPE]"
                       name="REPORT_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2000,12 +1975,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[CRASH_TYPE]"
-                      length="50"
+                      length="32"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[CRASH_TYPE]"
                       name="CRASH_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2022,12 +1997,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[INTERSECTION_RELATED_I]"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[INTERSECTION_RELATED_I]"
                       name="INTERSECTION_RELATED_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2044,12 +2019,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[NOT_RIGHT_OF_WAY_I]"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[NOT_RIGHT_OF_WAY_I]"
                       name="NOT_RIGHT_OF_WAY_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2066,12 +2041,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[HIT_AND_RUN_I]"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[HIT_AND_RUN_I]"
                       name="HIT_AND_RUN_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2088,12 +2063,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[DAMAGE]"
-                      length="50"
+                      length="13"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[DAMAGE]"
                       name="DAMAGE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2107,15 +2082,15 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[DATE_POLICE_NOTIFIED]"
-                      codePage="1252"
+                      codePage="1250"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[DATE_POLICE_NOTIFIED]"
                       length="50"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[DATE_POLICE_NOTIFIED]"
                       name="DATE_POLICE_NOTIFIED"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2132,12 +2107,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[PRIM_CONTRIBUTORY_CAUSE]"
-                      length="50"
+                      length="80"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
                       name="PRIM_CONTRIBUTORY_CAUSE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2154,12 +2129,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[SEC_CONTRIBUTORY_CAUSE]"
-                      length="50"
+                      length="80"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
                       name="SEC_CONTRIBUTORY_CAUSE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2176,12 +2151,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[CRASH_DATE_EST_I]"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[CRASH_DATE_EST_I]"
                       name="CRASH_DATE_EST_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2198,12 +2173,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[DOORING_I]"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[DOORING_I]"
                       name="DOORING_I"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2217,15 +2192,15 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[LANE_CNT]"
-                      codePage="1252"
+                      codePage="1250"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[LANE_CNT]"
                       length="50"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[LANE_CNT]"
                       name="LANE_CNT"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2239,15 +2214,15 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[NUM_UNITS]"
-                      codePage="1252"
+                      codePage="1250"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[NUM_UNITS]"
                       length="50"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[NUM_UNITS]"
                       name="NUM_UNITS"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2264,12 +2239,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[MOST_SEVERE_INJURY]"
-                      length="50"
+                      length="24"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[MOST_SEVERE_INJURY]"
                       name="MOST_SEVERE_INJURY"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2286,12 +2261,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[FIRST_CRASH_TYPE]"
-                      length="50"
+                      length="28"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[FIRST_CRASH_TYPE]"
                       name="FIRST_CRASH_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2699,7 +2674,7 @@
                 <input
                   refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="IgnoreFailure"
+                  errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -2766,6 +2741,20 @@
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SEC_CONTRIBUTORY_CAUSE]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SEC_CONTRIBUTORY_CAUSE]" />
                     <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of PHOTOS_TAKEN_I]"
+                      cachedDataType="wstr"
+                      cachedLength="500"
+                      cachedName="Copy of PHOTOS_TAKEN_I"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHOTOS_TAKEN_I]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PHOTOS_TAKEN_I]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of STATEMENTS_TAKEN_I]"
+                      cachedDataType="wstr"
+                      cachedLength="500"
+                      cachedName="Copy of STATEMENTS_TAKEN_I"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[STATEMENTS_TAKEN_I]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of STATEMENTS_TAKEN_I]" />
+                    <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of CRASH_DATE_EST_I]"
                       cachedDataType="wstr"
                       cachedLength="500"
@@ -2781,13 +2770,13 @@
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DOORING_I]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of LANE_CNT]"
-                      cachedDataType="ui8"
+                      cachedDataType="i2"
                       cachedName="Copy of LANE_CNT"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LANE_CNT]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LANE_CNT]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of NUM_UNITS]"
-                      cachedDataType="i4"
+                      cachedDataType="i1"
                       cachedName="Copy of NUM_UNITS"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NUM_UNITS]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of NUM_UNITS]" />
@@ -2805,20 +2794,6 @@
                       cachedName="Copy of FIRST_CRASH_TYPE"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FIRST_CRASH_TYPE]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of FIRST_CRASH_TYPE]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of PHOTOS_TAKEN_I]"
-                      cachedDataType="wstr"
-                      cachedLength="1"
-                      cachedName="Copy of PHOTOS_TAKEN_I"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHOTOS_TAKEN_I]"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PHOTOS_TAKEN_I]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of STATEMENTS_TAKEN_I]"
-                      cachedDataType="wstr"
-                      cachedLength="1"
-                      cachedName="Copy of STATEMENTS_TAKEN_I"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[STATEMENTS_TAKEN_I]"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of STATEMENTS_TAKEN_I]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2829,27 +2804,27 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[REPORT_TYPE]"
                       dataType="wstr"
-                      length="500"
+                      length="50"
                       name="REPORT_TYPE" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRASH_TYPE]"
                       dataType="wstr"
-                      length="500"
+                      length="50"
                       name="CRASH_TYPE" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[INTERSECTION_RELATED_I]"
                       dataType="wstr"
-                      length="500"
+                      length="1"
                       name="INTERSECTION_RELATED_I" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NOT_RIGHT_OF_WAY_I]"
                       dataType="wstr"
-                      length="500"
+                      length="1"
                       name="NOT_RIGHT_OF_WAY_I" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HIT_AND_RUN_I]"
                       dataType="wstr"
-                      length="500"
+                      length="1"
                       name="HIT_AND_RUN_I" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DAMAGE]"
@@ -2873,22 +2848,22 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PHOTOS_TAKEN_I]"
                       dataType="wstr"
-                      length="500"
+                      length="1"
                       name="PHOTOS_TAKEN_I" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[STATEMENTS_TAKEN_I]"
                       dataType="wstr"
-                      length="500"
+                      length="1"
                       name="STATEMENTS_TAKEN_I" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CRASH_DATE_EST_I]"
                       dataType="wstr"
-                      length="500"
+                      length="1"
                       name="CRASH_DATE_EST_I" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DOORING_I]"
                       dataType="wstr"
-                      length="500"
+                      length="1"
                       name="DOORING_I" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LANE_CNT]"
@@ -2901,12 +2876,12 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MOST_SEVERE_INJURY]"
                       dataType="wstr"
-                      length="500"
+                      length="80"
                       name="MOST_SEVERE_INJURY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FIRST_CRASH_TYPE]"
                       dataType="wstr"
-                      length="500"
+                      length="80"
                       name="FIRST_CRASH_TYPE" />
                   </externalMetadataColumns>
                 </input>
@@ -2932,6 +2907,1640 @@
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Script Component"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;13"
+              description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
+              name="Script Component"
+              version="13">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Stores the source code of the component"
+                  isArray="true"
+                  name="SourceCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="30">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services component wrapper
+*  This module defines the base class for your component
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+
+public class UserComponent: ScriptComponent
+{
+    public Connections Connections;
+    public Variables Variables;
+    public UserComponent()
+    {
+        Connections = new Connections(this);
+        Variables = new Variables(this);
+    }
+
+    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
+    {
+
+        if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
+        {
+            Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
+        }
+
+    }
+
+    public virtual void Input0_ProcessInput(Input0Buffer Buffer)
+    {
+        while (Buffer.NextRow())
+        {
+            Input0_ProcessInputRow(Buffer);
+        }
+    }
+
+    public virtual void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+    }
+
+}
+
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+
+public class Variables
+{
+    ScriptComponent ParentComponent;
+
+    public Variables(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[main.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
+/* The Script Component allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services data flow.
+ *
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script component. */
+#endregion
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+#endregion
+
+/// <summary>
+/// This is the class to which to add your code.  Do not change the name, attributes, or parent
+/// of this class.
+/// </summary>
+[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
+public class ScriptMain : UserComponent
+{
+    #region Help:  Using Integration Services variables and parameters
+    /* To use a variable in this script, first ensure that the variable has been added to
+     * either the list contained in the ReadOnlyVariables property or the list contained in
+     * the ReadWriteVariables property of this script component, according to whether or not your
+     * code needs to write into the variable.  To do so, save this script, close this instance of
+     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
+     * Script Transformation Editor window.
+     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+     *
+     * Example of reading from a variable or parameter:
+     *  DateTime startTime = Variables.MyStartTime;
+     *
+     * Example of writing to a variable:
+     *  Variables.myStringVariable = "new value";
+     */
+    #endregion
+
+    #region Help:  Using Integration Services Connnection Managers
+    /* Some types of connection managers can be used in this script component.  See the help topic
+     * "Working with Connection Managers Programatically" for details.
+     *
+     * To use a connection manager in this script, first ensure that the connection manager has
+     * been added to either the list of connection managers on the Connection Managers page of the
+     * script component editor.  To add the connection manager, save this script, close this instance of
+     * Visual Studio, and add the Connection Manager to the list.
+     *
+     * If the component needs to hold a connection open while processing rows, override the
+     * AcquireConnections and ReleaseConnections methods.
+     * 
+     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
+     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
+     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
+     *
+     * Example of using a File connection manager to acquire a file path:
+     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
+     *  string filePath = (string)rawConnection;
+     *
+     * Example of releasing a connection manager:
+     *  Connections.SalesDB.ReleaseConnection(rawConnection);
+     */
+    #endregion
+
+    #region Help:  Firing Integration Services Events
+    /* This script component can fire events.
+     *
+     * Example of firing an error event:
+     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
+     *
+     * Example of firing an information event:
+     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
+     *
+     * Example of firing a warning event:
+     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
+     */
+    #endregion
+
+    /// <summary>
+    /// This method is called once, before rows begin to be processed in the data flow.
+    ///
+    /// You can remove this method if you don't need to do anything here.
+    /// </summary>
+    public override void PreExecute()
+    {
+        base.PreExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called after all the rows have passed through this component.
+    ///
+    /// You can delete this method if you don't need to do anything here.
+    /// </summary>
+    public override void PostExecute()
+    {
+        base.PostExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called once for every row that passes through the component from Input0.
+    ///
+    /// Example of reading a value from a column in the the row:
+    ///  string zipCode = Row.ZipCode
+    ///
+    /// Example of writing a value to a column in the row:
+    ///  Row.ZipCode = zipCode
+    /// </summary>
+    /// <param name="Row">The row that is currently passing through the component</param>
+    public override void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+        if (Row.REPORTTYPE_IsNull)
+            Row.REPORTTYPE = "NULL_ERROR";
+
+        if (Row.CRASHTYPE_IsNull)
+            Row.CRASHTYPE = "UNKNOWN";
+
+        if (Row.INTERSECTIONRELATEDI_IsNull)
+            Row.INTERSECTIONRELATEDI = "N"; // No / default
+
+        if (Row.NOTRIGHTOFWAYI_IsNull)
+            Row.NOTRIGHTOFWAYI = "N";
+
+        if (Row.HITANDRUNI_IsNull)
+            Row.HITANDRUNI = "N";
+
+        if (Row.DAMAGE_IsNull)
+            Row.DAMAGE = "UNKNOWN";
+
+        if (Row.DATEPOLICENOTIFIED_IsNull)
+            Row.DATEPOLICENOTIFIED = DateTime.MinValue.ToString(); // or some safe date
+
+        if (Row.PRIMCONTRIBUTORYCAUSE_IsNull)
+            Row.PRIMCONTRIBUTORYCAUSE = "UNKNOWN";
+
+        if (Row.SECCONTRIBUTORYCAUSE_IsNull)
+            Row.SECCONTRIBUTORYCAUSE = "NONE";
+
+        if (Row.PHOTOSTAKENI_IsNull)
+            Row.PHOTOSTAKENI = "N";
+
+        if (Row.STATEMENTSTAKENI_IsNull)
+            Row.STATEMENTSTAKENI = "N";
+
+        if (Row.CRASHDATEESTI_IsNull)
+            Row.CRASHDATEESTI = "N";
+
+        if (Row.DOORINGI_IsNull)
+            Row.DOORINGI = "N";
+
+        if (Row.LANECNT_IsNull)
+            Row.LANECNT = "0";
+        if (!Row.LANECNT_IsNull)
+            Row.LANECNT = "0";
+
+        if (Row.NUMUNITS_IsNull)
+            Row.NUMUNITS = "0";
+
+        if (Row.MOSTSEVEREINJURY_IsNull)
+            Row.MOSTSEVEREINJURY = "UNKNOWN";
+
+        if (Row.FIRSTCRASHTYPE_IsNull)
+            Row.FIRSTCRASHTYPE = "UNKNOWN";
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services buffer wrappers
+*  This module defines classes for accessing data flow buffers
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+
+public class Input0Buffer: ScriptBuffer
+
+{
+    public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
+        : base(Buffer, BufferColumnIndexes, OutputMap)
+    {
+    }
+
+    public String REPORTTYPE
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[0]);
+        }
+        set
+        {
+            this[0] = value;
+        }
+    }
+    public bool REPORTTYPE_IsNull
+    {
+        get
+        {
+            return IsNull(0);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(0);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String CRASHTYPE
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[1]);
+        }
+        set
+        {
+            this[1] = value;
+        }
+    }
+    public bool CRASHTYPE_IsNull
+    {
+        get
+        {
+            return IsNull(1);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(1);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String INTERSECTIONRELATEDI
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[2]);
+        }
+        set
+        {
+            this[2] = value;
+        }
+    }
+    public bool INTERSECTIONRELATEDI_IsNull
+    {
+        get
+        {
+            return IsNull(2);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(2);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String NOTRIGHTOFWAYI
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[3]);
+        }
+        set
+        {
+            this[3] = value;
+        }
+    }
+    public bool NOTRIGHTOFWAYI_IsNull
+    {
+        get
+        {
+            return IsNull(3);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(3);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String HITANDRUNI
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[4]);
+        }
+        set
+        {
+            this[4] = value;
+        }
+    }
+    public bool HITANDRUNI_IsNull
+    {
+        get
+        {
+            return IsNull(4);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(4);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String DAMAGE
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[5]);
+        }
+        set
+        {
+            this[5] = value;
+        }
+    }
+    public bool DAMAGE_IsNull
+    {
+        get
+        {
+            return IsNull(5);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(5);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String DATEPOLICENOTIFIED
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[6]);
+        }
+        set
+        {
+            this[6] = value;
+        }
+    }
+    public bool DATEPOLICENOTIFIED_IsNull
+    {
+        get
+        {
+            return IsNull(6);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(6);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String PRIMCONTRIBUTORYCAUSE
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[7]);
+        }
+        set
+        {
+            this[7] = value;
+        }
+    }
+    public bool PRIMCONTRIBUTORYCAUSE_IsNull
+    {
+        get
+        {
+            return IsNull(7);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(7);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String SECCONTRIBUTORYCAUSE
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[8]);
+        }
+        set
+        {
+            this[8] = value;
+        }
+    }
+    public bool SECCONTRIBUTORYCAUSE_IsNull
+    {
+        get
+        {
+            return IsNull(8);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(8);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String CRASHDATEESTI
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[9]);
+        }
+        set
+        {
+            this[9] = value;
+        }
+    }
+    public bool CRASHDATEESTI_IsNull
+    {
+        get
+        {
+            return IsNull(9);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(9);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String DOORINGI
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[10]);
+        }
+        set
+        {
+            this[10] = value;
+        }
+    }
+    public bool DOORINGI_IsNull
+    {
+        get
+        {
+            return IsNull(10);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(10);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String LANECNT
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[11]);
+        }
+        set
+        {
+            this[11] = value;
+        }
+    }
+    public bool LANECNT_IsNull
+    {
+        get
+        {
+            return IsNull(11);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(11);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String NUMUNITS
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[12]);
+        }
+        set
+        {
+            this[12] = value;
+        }
+    }
+    public bool NUMUNITS_IsNull
+    {
+        get
+        {
+            return IsNull(12);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(12);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String MOSTSEVEREINJURY
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[13]);
+        }
+        set
+        {
+            this[13] = value;
+        }
+    }
+    public bool MOSTSEVEREINJURY_IsNull
+    {
+        get
+        {
+            return IsNull(13);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(13);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String FIRSTCRASHTYPE
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[14]);
+        }
+        set
+        {
+            this[14] = value;
+        }
+    }
+    public bool FIRSTCRASHTYPE_IsNull
+    {
+        get
+        {
+            return IsNull(14);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(14);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String PHOTOSTAKENI
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[15]);
+        }
+        set
+        {
+            this[15] = value;
+        }
+    }
+    public bool PHOTOSTAKENI_IsNull
+    {
+        get
+        {
+            return IsNull(15);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(15);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String STATEMENTSTAKENI
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[16]);
+        }
+        set
+        {
+            this[16] = value;
+        }
+    }
+    public bool STATEMENTSTAKENI_IsNull
+    {
+        get
+        {
+            return IsNull(16);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(16);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    new public bool NextRow()
+    {
+        return base.NextRow();
+    }
+
+    new public bool EndOfRowset()
+    {
+        return base.EndOfRowset();
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_bd097d10ba0b4f0988aa09e7607375ec.Properties.Settings.get_Default():SC_bd097d10ba0b4f0988aa09e7607375ec.Properties.Sett" +
+    "ings")]
+
+namespace SC_bd097d10ba0b4f0988aa09e7607375ec.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_bd097d10ba0b4f0988aa09e7607375ec.csproj]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{711b4491-1613-4e1d-9ca6-4cda41ca508a}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC_bd097d10ba0b4f0988aa09e7607375ec</RootNamespace>
+    <AssemblyName>SC_bd097d10ba0b4f0988aa09e7607375ec</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.TxScript, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Compile Include="main.cs" />
+    <Compile Include="BufferWrapper.cs" />
+    <Compile Include="ComponentWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptComponent" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoExeName="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptComponent" GeneratedNamespace="SC_bd097d10ba0b4f0988aa09e7607375ec" IconIndex="0"></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_SC160</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Project]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>SC_bd097d10ba0b4f0988aa09e7607375ec</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>SC_bd097d10ba0b4f0988aa09e7607375ec</msb:DisplayName>
+    <msb:ProjectId>{E8EA6EA4-0C76-4FD3-BF00-A754605C4440}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="SC_bd097d10ba0b4f0988aa09e7607375ec.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="main.cs" />
+    <msb:File Include="BufferWrapper.cs" />
+    <msb:File Include="ComponentWrapper.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("SC_bd097d10ba0b4f0988aa09e7607375ec")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("SC_bd097d10ba0b4f0988aa09e7607375ec")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.0.0")]
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_bd097d10ba0b4f0988aa09e7607375ec.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_bd097d10ba0b4f0988aa09e7607375ec.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_bd097d10ba0b4f0988aa09e7607375ec.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace SC_bd097d10ba0b4f0988aa09e7607375ec.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_bd097d10ba0b4f0988aa09e7607375ec.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Stores the binary representation of the component"
+                  isArray="true"
+                  name="BinaryCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="2">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_bd097d10ba0b4f0988aa09e7607375ec.dll]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAKgsRmgAAAAAAAAAAOAAIiALATAAACQAAAAIAAAAAAAAWkMA
+AAAgAAAAYAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACgAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAAhDAABPAAAAAGAAAEgEAAAAAAAAAAAAAAAAAAAA
+AAAAAIAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAYCMAAAAgAAAAJAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAYAAAAAYAAAAmAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAIAAAAACAAAALAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAA8
+QwAAAAAAAEgAAAACAAUAFCcAADwbAAABAAAAAAAAAFBCAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACioTMAIAXwEAAAEAABEDbwgAAAYs
+CwNyAQAAcG8HAAAGA28MAAAGLAsDchcAAHBvCwAABgNvEAAABiwLA3InAABwbw8AAAYDbxQAAAYs
+CwNyJwAAcG8TAAAGA28YAAAGLAsDcicAAHBvFwAABgNvHAAABiwLA3IXAABwbxsAAAYDbyAAAAYs
+EwN+EgAACgoSACgTAAAKbx8AAAYDbyQAAAYsCwNyFwAAcG8jAAAGA28oAAAGLAsDcisAAHBvJwAA
+BgNvRAAABiwLA3InAABwb0MAAAYDb0gAAAYsCwNyJwAAcG9HAAAGA28sAAAGLAsDcicAAHBvKwAA
+BgNvMAAABiwLA3InAABwby8AAAYDbzQAAAYsCwNyNQAAcG8zAAAGA280AAAGLQsDcjUAAHBvMwAA
+BgNvOAAABiwLA3I1AABwbzcAAAYDbzwAAAYsCwNyFwAAcG87AAAGA29AAAAGLAsDchcAAHBvPwAA
+BioeAihMAAAGKioCAwQFKBQAAAoqUgJ7FQAACgJ7FgAAChaUbxcAAAoqJgIWAygYAAAKKiICFigZ
+AAAKKloDLAgCFigaAAAKKnI5AABwcxsAAAp6UgJ7FQAACgJ7FgAACheUbxcAAAoqJgIXAygYAAAK
+KiICFygZAAAKKloDLAgCFygaAAAKKnI5AABwcxsAAAp6UgJ7FQAACgJ7FgAAChiUbxcAAAoqJgIY
+AygYAAAKKiICGCgZAAAKKloDLAgCGCgaAAAKKnI5AABwcxsAAAp6UgJ7FQAACgJ7FgAAChmUbxcA
+AAoqJgIZAygYAAAKKiICGSgZAAAKKloDLAgCGSgaAAAKKnI5AABwcxsAAAp6UgJ7FQAACgJ7FgAA
+ChqUbxcAAAoqJgIaAygYAAAKKiICGigZAAAKKloDLAgCGigaAAAKKnI5AABwcxsAAAp6UgJ7FQAA
+CgJ7FgAAChuUbxcAAAoqJgIbAygYAAAKKiICGygZAAAKKloDLAgCGygaAAAKKnI5AABwcxsAAAp6
+UgJ7FQAACgJ7FgAAChyUbxcAAAoqJgIcAygYAAAKKiICHCgZAAAKKloDLAgCHCgaAAAKKnI5AABw
+cxsAAAp6UgJ7FQAACgJ7FgAACh2UbxcAAAoqJgIdAygYAAAKKiICHSgZAAAKKloDLAgCHSgaAAAK
+KnI5AABwcxsAAAp6UgJ7FQAACgJ7FgAACh6UbxcAAAoqJgIeAygYAAAKKiICHigZAAAKKloDLAgC
+HigaAAAKKnI5AABwcxsAAAp6VgJ7FQAACgJ7FgAACh8JlG8XAAAKKioCHwkDKBgAAAoqJgIfCSgZ
+AAAKKl4DLAkCHwkoGgAACipyOQAAcHMbAAAKelYCexUAAAoCexYAAAofCpRvFwAACioqAh8KAygY
+AAAKKiYCHwooGQAACipeAywJAh8KKBoAAAoqcjkAAHBzGwAACnpWAnsVAAAKAnsWAAAKHwuUbxcA
+AAoqKgIfCwMoGAAACiomAh8LKBkAAAoqXgMsCQIfCygaAAAKKnI5AABwcxsAAAp6VgJ7FQAACgJ7
+FgAACh8MlG8XAAAKKioCHwwDKBgAAAoqJgIfDCgZAAAKKl4DLAkCHwwoGgAACipyOQAAcHMbAAAK
+elYCexUAAAoCexYAAAofDZRvFwAACioqAh8NAygYAAAKKiYCHw0oGQAACipeAywJAh8NKBoAAAoq
+cjkAAHBzGwAACnpWAnsVAAAKAnsWAAAKHw6UbxcAAAoqKgIfDgMoGAAACiomAh8OKBkAAAoqXgMs
+CQIfDigaAAAKKnI5AABwcxsAAAp6VgJ7FQAACgJ7FgAACh8PlG8XAAAKKioCHw8DKBgAAAoqJgIf
+DygZAAAKKl4DLAkCHw8oGgAACipyOQAAcHMbAAAKelYCexUAAAoCexYAAAofEJRvFwAACioqAh8Q
+AygYAAAKKiYCHxAoGQAACipeAywJAh8QKBoAAAoqcjkAAHBzGwAACnoeAigcAAAKKh4CKB0AAAoq
+fgIoHgAACgICc1AAAAZ9AQAABAICc1EAAAZ9AgAABCqSBHLWAABwGm8fAAAKLBUCBQIDKCAAAAoO
+BHMFAAAGb04AAAYqSisHAgNvTwAABgNvSgAABi3xKgYqOgIoIQAACgIDfQMAAAQqOgIoIQAACgID
+fQQAAAQqHgIoIQAACiqufgUAAAQtHnLmAABw0AcAAAIoIgAACm8jAAAKcyQAAAqABQAABH4FAAAE
+Khp+BgAABCoeAoAGAAAEKhp+BwAABCoeAiglAAAKKi5zVwAABoAHAAAEKgBCU0pCAQABAAAAAAAM
+AAAAdjQuMC4zMDMxOQAAAAAFAGwAAADwCwAAI34AAFwMAADMCwAAI1N0cmluZ3MAAAAAKBgAAFgB
+AAAjVVMAgBkAABAAAAAjR1VJRAAAAJAZAACsAQAAI0Jsb2IAAAAAAAAAAgAAAVcVogEJAQAAAPoB
+MwAWAAABAAAAIAAAAAgAAAAHAAAAWAAAAC8AAAAlAAAAEAAAAAEAAAADAAAAJQAAAEgAAAABAAAA
+BAAAAAEAAAAAAG4FAQAAAAAABgBTBAEKBgDnBAEKBgCfA+4JDwB1CgAABgDMA0MJBgA2BEMJBgAX
+BEMJBgDOBEMJBgBzBEMJBgCMBEMJBgDjA0MJBgD+AysFCgCnBOwCBgDjAvsICgDACewCDgCxCewC
+CgCMCewCCgA7C+wCBgD+CvsIBgCCA+4JBgDRCSEKBgCACS4JEgBSA1gFEgCzA1gFEgA6AxkJBgBn
+AwEKBgBVCfsIBgBRBfsIBgBvCfsIBgANA/sIBgC1AvsIBgDAC0MJAAAAAAEAAAAAAAEAAQABABAA
+DgkAABAAAQABAAEAEACkCQAAPQABAAUAAQAQAB0LAABJAAEATAABABAA8goAAE0AAwBQAAEAEACz
+CgAATQAEAFEAAAAQACgKhApNAAUAUgAAARAA4gqECmUABwBWAAYA8gqCAAYAswqGAAEAKwuKAAEA
+KwuKABEAAgmOABEAKgOSABEApQKWAFAgAAAAAMYABQUGAAEAWCAAAAAAxgAQBQYAAQBgIAAAAADG
+AJ0LmgABAMshAAAAAIYY4QkGAAIA0yEAAAAAhhjhCSgAAgDeIQAAAACGCJgAJAAFAPMhAAAAAIYI
+pwAQAAUA/SEAAAAAhghUBkoABgAGIgAAAACGCGoGoAAGAB0iAAAAAIYIfAAkAAcAMiIAAAAAhgiK
+ABAABwA8IgAAAACGCCoGSgAIAEUiAAAAAIYIPwagAAgAXCIAAAAAhggcASQACQBxIgAAAACGCDUB
+EAAJAHsiAAAAAIYIAgdKAAoAhCIAAAAAhggiB6AACgCbIgAAAACGCPYBJAALALAiAAAAAIYICQIQ
+AAsAuiIAAAAAhggwCEoADADDIgAAAACGCEoIoAAMANoiAAAAAIYItAEkAA0A7yIAAAAAhgjDARAA
+DQD5IgAAAACGCNIHSgAOAAIjAAAAAIYI6AegAA4AGSMAAAAAhghAACQADwAuIwAAAACGCEsAEAAP
+ADgjAAAAAIYI0gVKABAAQSMAAAAAhgjkBaAAEABYIwAAAACGCAoAJAARAG0jAAAAAIYIIQAQABEA
+dyMAAAAAhgiWBUoAEgCAIwAAAACGCLQFoAASAJcjAAAAAIYI6AAkABMArCMAAAAAhggCARAAEwC2
+IwAAAACGCMAGSgAUAL8jAAAAAIYI4QagABQA1iMAAAAAhgi2ACQAFQDrIwAAAACGCM8AEAAVAPUj
+AAAAAIYIgAZKABYA/iMAAAAAhgigBqAAFgAVJAAAAACGCNIBJAAXACskAAAAAIYI5AEQABcANiQA
+AAAAhgj+B0oAGABAJAAAAACGCBcIoAAYAFgkAAAAAIYITgEkABkAbiQAAAAAhghbARAAGQB5JAAA
+AACGCEIHSgAaAIMkAAAAAIYIVgegABoAmyQAAAAAhgg2AiQAGwCxJAAAAACGCEICEAAbALwkAAAA
+AIYIjAhKABwAxiQAAAAAhgifCKAAHADeJAAAAACGCBwCJAAdAPQkAAAAAIYIKQIQAB0A/yQAAAAA
+hghkCEoAHgAJJQAAAACGCHgIoAAeACElAAAAAIYITgIkAB8ANyUAAAAAhghjAhAAHwBCJQAAAACG
+CLIISgAgAEwlAAAAAIYIzgigACAAZCUAAAAAhghWACQAIQB6JQAAAACGCGkAEAAhAIUlAAAAAIYI
+9gVKACIAjyUAAAAAhggQBqAAIgCnJQAAAACGCGgBJAAjAL0lAAAAAIYIeQEQACMAyCUAAAAAhghq
+B0oAJADSJQAAAACGCIIHoAAkAOolAAAAAIYIigEkACUAACYAAAAAhgifARAAJQALJgAAAACGCJoH
+SgAmABUmAAAAAIYItgegACYALSYAAAAAhgC0C0oAJwA1JgAAAACGAAULSgAnAD0mAAAAAIYY4QkG
+ACcAXSYAAAAAxgCQC6UAJwCCJgAAAADGAYkLmgArAJUmAAAAAMYBnQuaACwAlyYAAAAAhhjhCa8A
+LQCmJgAAAACGGOEJrwAuALUmAAAAAIMY4QkGAC8AvSYAAAAAkwjNCbUALwDpJgAAAACTCBIDugAv
+APAmAAAAAJMIHgO/AC8A+CYAAAAAlggRC8UAMAD/JgAAAACGGOEJBgAwAAcnAAAAAJEY5wnKADAA
+AAABALgLAAABAMYJAAACAL0KAAADAJoJAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAAB
+ACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUF
+AAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAAB
+ACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUFAAABACUF
+AAABADgAAAACANkCAAADAMYJAAAEAJoJAAABAMYJAAABALgLAAABAEELAAABAEELAAABACUFCQDh
+CQEAEQDhCQYAGQDhCQoAKQDhCRAAMQDhCRAAOQDhCRAAQQDhCRAASQDhCRAAUQDhCRAAWQDhCRAA
+YQDhCRAAaQDhCQYAoQDhCQYAwQDhCRUA0QDhCQYAkQAFBQYAkQAQBQYAcQAcBSAAcQBFBSQAeQDh
+CSgAeQDGCTIAeQC9CjYAgQBOBToAeQDyCD8AeQDjCEUAeQDqCAEA2QDhCRAAeQC0C0oAeQAFC0oA
+kQDhCQYA4QDrCk4AkQDRClUAmQDhCQYA8QDHAlsA8QC8C2IAqQDhCWgAyQDhCQYALgALAOUALgAT
+AO4ALgAbAA0BLgAjABYBLgArAD8BLgAzAD8BLgA7AD8BLgBDABYBLgBLAEUBLgBTAD8BLgBbAFwB
+QwBjAKYB4QB7AKYB4wBrAKYBaQRzAA0BiQRzAA0BGwADAAEABwAjAAgAJQAAAKsAzgAAAG4G0gAA
+AI4AzgAAAEMG0gAAADkBzgAAACYH0gAAAA0CzgAAAE4I0gAAAMcBzgAAAOwH0gAAAE8AzgAAAOgF
+0gAAACUAzgAAALgF0gAAAAYBzgAAAOUG0gAAANMAzgAAAKQG0gAAAOgBzgAAABsI0gAAAF8BzgAA
+AFoH0gAAAEYCzgAAAKMI0gAAAC0CzgAAAHwI0gAAAGcCzgAAANII0gAAAG0AzgAAABQG0gAAAH0B
+zgAAAIYH0gAAAKMBzgAAALoH0gAAANEJ1gAAADID2wAAABUL4AACAAYAAwABAAcAAwACAAgABQAB
+AAkABQACAAoABwABAAsABwACAAwACQABAA0ACQACAA4ACwABAA8ACwACABAADQABABEADQACABIA
+DwABABMADwACABQAEQABABUAEQACABYAEwABABcAEwACABgAFQABABkAFQACABoAFwABABsAFwAC
+ABwAGQABAB0AGQACAB4AGwABAB8AGwACACAAHQABACEAHQACACIAHwABACMAHwACACQAIQABACUA
+IQACACYAIwABACcAIwACACgAJQABACkAJQACACoAJwABACsAJwACACwAKQABAC0AKQACAC4AKwAB
+AC8AKwACADAALQABADEALQACADIALwABADMALwACADQAMQABADUAMQACADYAMwABADcAMwACADgA
+NQABADkANQACADoANwABADsANwACADwAOQABAD0AOQACAD4AOwABAD8AOwACAEAAPQABAEEAPQAC
+AEIAPwABAEMAPwACAEQAQQABAEUAQQACAEYAQwABAEcAQwACAEgARQABAEkARQACAFMARwACAFQA
+SQABAFUASQACAFYASwAEgAAAAQAAAAAAAAAAAAAAAACBAgAABAAAAAAAAAAAAAAAcAB4AgAAAAAQ
+AAAAAAAAAAAAAAB5AEsLAAAAABAAAAAAAAAAAAAAAHkAaAsAAAAABAAAAAAAAAAAAAAAcAD7CAAA
+AAAAAAAAAQAAADIKAAAAAAA8TW9kdWxlPgBnZXRfREFURVBPTElDRU5PVElGSUVEAHNldF9EQVRF
+UE9MSUNFTk9USUZJRUQASW5wdXRJRABnZXRfREFNQUdFAHNldF9EQU1BR0UAZ2V0X0ZJUlNUQ1JB
+U0hUWVBFAHNldF9GSVJTVENSQVNIVFlQRQBnZXRfQ1JBU0hUWVBFAHNldF9DUkFTSFRZUEUAZ2V0
+X1JFUE9SVFRZUEUAc2V0X1JFUE9SVFRZUEUAZ2V0X1NFQ0NPTlRSSUJVVE9SWUNBVVNFAHNldF9T
+RUNDT05UUklCVVRPUllDQVVTRQBnZXRfUFJJTUNPTlRSSUJVVE9SWUNBVVNFAHNldF9QUklNQ09O
+VFJJQlVUT1JZQ0FVU0UAZ2V0X0lOVEVSU0VDVElPTlJFTEFURURJAHNldF9JTlRFUlNFQ1RJT05S
+RUxBVEVESQBnZXRfRE9PUklOR0kAc2V0X0RPT1JJTkdJAGdldF9QSE9UT1NUQUtFTkkAc2V0X1BI
+T1RPU1RBS0VOSQBnZXRfU1RBVEVNRU5UU1RBS0VOSQBzZXRfU1RBVEVNRU5UU1RBS0VOSQBnZXRf
+SElUQU5EUlVOSQBzZXRfSElUQU5EUlVOSQBnZXRfQ1JBU0hEQVRFRVNUSQBzZXRfQ1JBU0hEQVRF
+RVNUSQBnZXRfTk9UUklHSFRPRldBWUkAc2V0X05PVFJJR0hUT0ZXQVlJAGdldF9OVU1VTklUUwBz
+ZXRfTlVNVU5JVFMAZ2V0X0xBTkVDTlQAc2V0X0xBTkVDTlQAZ2V0X01PU1RTRVZFUkVJTkpVUlkA
+c2V0X01PU1RTRVZFUkVJTkpVUlkAbXNjb3JsaWIAU0NfYmQwOTdkMTBiYTBiNGYwOTg4YWEwOWU3
+NjA3Mzc1ZWMAZGVmYXVsdEluc3RhbmNlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5cGVGcm9tSGFu
+ZGxlAElucHV0TmFtZQBEYXRlVGltZQBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5QaXBlbGluZQBU
+eXBlAGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBBcHBsaWNhdGlvblNl
+dHRpbmdzQmFzZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0
+ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9y
+QnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1h
+cmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlv
+bkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhh
+dGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0
+QXR0cmlidXRlAFNTSVNTY3JpcHRDb21wb25lbnRFbnRyeVBvaW50QXR0cmlidXRlAEFzc2VtYmx5
+Q29tcGFueUF0dHJpYnV0ZQBSdW50aW1lQ29tcGF0aWJpbGl0eUF0dHJpYnV0ZQBQcmVFeGVjdXRl
+AFBvc3RFeGVjdXRlAE1pblZhbHVlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcAVG9T
+dHJpbmcAR2V0U3RyaW5nAFN5c3RlbS5Db21wb25lbnRNb2RlbABTQ19iZDA5N2QxMGJhMGI0ZjA5
+ODhhYTA5ZTc2MDczNzVlYy5kbGwAZ2V0X0RBVEVQT0xJQ0VOT1RJRklFRF9Jc051bGwAc2V0X0RB
+VEVQT0xJQ0VOT1RJRklFRF9Jc051bGwAZ2V0X0RBTUFHRV9Jc051bGwAc2V0X0RBTUFHRV9Jc051
+bGwAZ2V0X0ZJUlNUQ1JBU0hUWVBFX0lzTnVsbABzZXRfRklSU1RDUkFTSFRZUEVfSXNOdWxsAGdl
+dF9DUkFTSFRZUEVfSXNOdWxsAHNldF9DUkFTSFRZUEVfSXNOdWxsAGdldF9SRVBPUlRUWVBFX0lz
+TnVsbABzZXRfUkVQT1JUVFlQRV9Jc051bGwAZ2V0X1NFQ0NPTlRSSUJVVE9SWUNBVVNFX0lzTnVs
+bABzZXRfU0VDQ09OVFJJQlVUT1JZQ0FVU0VfSXNOdWxsAGdldF9QUklNQ09OVFJJQlVUT1JZQ0FV
+U0VfSXNOdWxsAHNldF9QUklNQ09OVFJJQlVUT1JZQ0FVU0VfSXNOdWxsAGdldF9JTlRFUlNFQ1RJ
+T05SRUxBVEVESV9Jc051bGwAc2V0X0lOVEVSU0VDVElPTlJFTEFURURJX0lzTnVsbABnZXRfRE9P
+UklOR0lfSXNOdWxsAHNldF9ET09SSU5HSV9Jc051bGwAZ2V0X1BIT1RPU1RBS0VOSV9Jc051bGwA
+c2V0X1BIT1RPU1RBS0VOSV9Jc051bGwAZ2V0X1NUQVRFTUVOVFNUQUtFTklfSXNOdWxsAHNldF9T
+VEFURU1FTlRTVEFLRU5JX0lzTnVsbABnZXRfSElUQU5EUlVOSV9Jc051bGwAc2V0X0hJVEFORFJV
+TklfSXNOdWxsAGdldF9DUkFTSERBVEVFU1RJX0lzTnVsbABzZXRfQ1JBU0hEQVRFRVNUSV9Jc051
+bGwAZ2V0X05PVFJJR0hUT0ZXQVlJX0lzTnVsbABzZXRfTk9UUklHSFRPRldBWUlfSXNOdWxsAGdl
+dF9OVU1VTklUU19Jc051bGwAc2V0X05VTVVOSVRTX0lzTnVsbABnZXRfTEFORUNOVF9Jc051bGwA
+c2V0X0xBTkVDTlRfSXNOdWxsAGdldF9NT1NUU0VWRVJFSU5KVVJZX0lzTnVsbABzZXRfTU9TVFNF
+VkVSRUlOSlVSWV9Jc051bGwAU2V0TnVsbABzZXRfSXRlbQBTeXN0ZW0AcmVzb3VyY2VNYW4AU2Ny
+aXB0TWFpbgBTeXN0ZW0uQ29uZmlndXJhdGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0u
+UmVmbGVjdGlvbgBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uAFN0cmluZ0NvbXBhcmlzb24AQ3Vs
+dHVyZUluZm8AT3V0cHV0TmFtZU1hcABPdXRwdXRNYXAASW5wdXQwQnVmZmVyAFBpcGVsaW5lQnVm
+ZmVyAFNjcmlwdEJ1ZmZlcgBnZXRfUmVzb3VyY2VNYW5hZ2VyAC5jdG9yAC5jY3RvcgBTeXN0ZW0u
+RGlhZ25vc3RpY3MAU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcwBTeXN0ZW0uUmVzb3Vy
+Y2VzAFNDX2JkMDk3ZDEwYmEwYjRmMDk4OGFhMDllNzYwNzM3NWVjLlByb3BlcnRpZXMuUmVzb3Vy
+Y2VzLnJlc291cmNlcwBEZWJ1Z2dpbmdNb2RlcwBTQ19iZDA5N2QxMGJhMGI0ZjA5ODhhYTA5ZTc2
+MDczNzVlYy5Qcm9wZXJ0aWVzAFZhcmlhYmxlcwBCdWZmZXJDb2x1bW5JbmRleGVzAEdldENvbHVt
+bkluZGV4ZXMAU2V0dGluZ3MARXF1YWxzAENvbm5lY3Rpb25zAE9iamVjdABFbmRPZlJvd3NldABn
+ZXRfRGVmYXVsdABVc2VyQ29tcG9uZW50AFBhcmVudENvbXBvbmVudABTY3JpcHRDb21wb25lbnQA
+TWljcm9zb2Z0LlNxbFNlcnZlci5UeFNjcmlwdABNaWNyb3NvZnQuU3FsU2VydmVyLlBpcGVsaW5l
+SG9zdABJbnB1dDBfUHJvY2Vzc0lucHV0AElucHV0MF9Qcm9jZXNzSW5wdXRSb3cATmV4dFJvdwBn
+ZXRfQXNzZW1ibHkAAAAAABVOAFUATABMAF8ARQBSAFIATwBSAAAPVQBOAEsATgBPAFcATgAAA04A
+AAlOAE8ATgBFAAADMAAAgJtJAHMATgB1AGwAbAAgAHAAcgBvAHAAZQByAHQAeQAgAGMAYQBuAG4A
+bwB0ACAAYgBlACAAcwBlAHQAIAB0AG8AIABGAGEAbABzAGUALgAgAEEAcwBzAGkAZwBuACAAYQAg
+AHYAYQBsAHUAZQAgAHQAbwAgAHQAaABlACAAYwBvAGwAdQBtAG4AIABpAG4AcwB0AGUAYQBkAC4A
+AA9JAG4AcAB1AHQAIAAwAABxUwBDAF8AYgBkADAAOQA3AGQAMQAwAGIAYQAwAGIANABmADAAOQA4
+ADgAYQBhADAAOQBlADcANgAwADcAMwA3ADUAZQBjAC4AUAByAG8AcABlAHIAdABpAGUAcwAuAFIA
+ZQBzAG8AdQByAGMAZQBzAADojzIzYaqqRY2YcORMQBxJAAQgAQEIAyAAAQUgAQEREQQgAQEOBSAB
+ARFdBAcBETkDBhE5AyAADgkgAwESQR0IEkUDBhJBAwYdCAQgAQ4IBSACAQgcBCABAggDIAACBiAC
+Ag4RdQUgAR0ICAYAARJ5EX0FIAASgIEHIAIBDhKAgQi3elxWGTTgiQiJhF3NgIDMkQMGEhQDBhIY
+AwYSSQMGElUDBhJZAwYSIAUgAQESDAQgAQECCSAEAQgOEkESRQUgAQESSQQAABJVBAAAElkFAAEB
+ElkEAAASIAMAAAEDKAAOAygAAgQIABJVBAgAElkECAASIAgBAAgAAAAAAB4BAAEAVAIWV3JhcE5v
+bkV4Y2VwdGlvblRocm93cwEIAQACAAAAAAAoAQAjU0NfYmQwOTdkMTBiYTBiNGYwOTg4YWEwOWU3
+NjA3Mzc1ZWMAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAyNQAASQEAGi5ORVRGcmFtZXdvcmss
+VmVyc2lvbj12NC43AQBUDhRGcmFtZXdvcmtEaXNwbGF5TmFtZRIuTkVUIEZyYW1ld29yayA0LjcE
+AQAAAAC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1z
+Y29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49
+Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAA
+AAAAAAAAAFBBRFBBRFC0AAAAMEMAAAAAAAAAAAAASkMAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ADxDAAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAAA
+ABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAAADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAEgAAABYYAAA
+7AMAAAAAAAAAAAAA7AM0AAAAVgBTAF8AVgBFAFIAUwBJAE8ATgBfAEkATgBGAE8AAAAAAL0E7/4A
+AAEAAAABAAAAAAAAAAEAAAAAAD8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABEAAAAAQBWAGEA
+cgBGAGkAbABlAEkAbgBmAG8AAAAAACQABAAAAFQAcgBhAG4AcwBsAGEAdABpAG8AbgAAAAAAAACw
+BEwDAAABAFMAdAByAGkAbgBnAEYAaQBsAGUASQBuAGYAbwAAACgDAAABADAAMAAwADAAMAA0AGIA
+MAAAABoAAQABAEMAbwBtAG0AZQBuAHQAcwAAAAAAAAAiAAEAAQBDAG8AbQBwAGEAbgB5AE4AYQBt
+AGUAAAAAAAAAAABwACQAAQBGAGkAbABlAEQAZQBzAGMAcgBpAHAAdABpAG8AbgAAAAAAUwBDAF8A
+YgBkADAAOQA3AGQAMQAwAGIAYQAwAGIANABmADAAOQA4ADgAYQBhADAAOQBlADcANgAwADcAMwA3
+ADUAZQBjAAAAMAAIAAEARgBpAGwAZQBWAGUAcgBzAGkAbwBuAAAAAAAxAC4AMAAuADAALgAwAAAA
+cAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAEMAXwBiAGQAMAA5ADcAZAAxADAAYgBh
+ADAAYgA0AGYAMAA5ADgAOABhAGEAMAA5AGUANwA2ADAANwAzADcANQBlAGMALgBkAGwAbAAAAEgA
+EgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMAbwBwAHkAcgBpAGcAaAB0ACAAQAAg
+ACAAMgAwADIANQAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBkAGUAbQBhAHIAawBzAAAAAAAAAAAA
+eAAoAAEATwByAGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBhAG0AZQAAAFMAQwBfAGIAZAAwADkANwBk
+ADEAMABiAGEAMABiADQAZgAwADkAOAA4AGEAYQAwADkAZQA3ADYAMAA3ADMANwA1AGUAYwAuAGQA
+bABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAAAABTAEMAXwBiAGQAMAA5ADcAZAAx
+ADAAYgBhADAAYgA0AGYAMAA5ADgAOABhAGEAMAA5AGUANwA2ADAANwAzADcANQBlAGMAAAA0AAgA
+AQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADAALgAwAAAAOAAIAAEAQQBz
+AHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAADAAAAFwzAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
+                  name="VSTAProjectName"
+                  typeConverter="NOTBROWSABLE">SC_bd097d10ba0b4f0988aa09e7607375ec</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the programming language used by the script."
+                  name="ScriptLanguage"
+                  typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read-only variables."
+                  name="ReadOnlyVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read/write variables."
+                  name="ReadWriteVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="List of breakpoints present on the script."
+                  isArray="true"
+                  name="BreakpointCollection"
+                  typeConverter="NOTBROWSABLE">
+                  <arrayElements
+                    arrayElementCount="0" />
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Checksum to match component metedata against compiled codes."
+                  name="MetadataChecksum140"
+                  typeConverter="NOTBROWSABLE">24</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Script Component.Inputs[Input 0]"
+                  hasSideEffects="true"
+                  name="Input 0">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[REPORT_TYPE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="26"
+                      cachedName="REPORT_TYPE"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[REPORT_TYPE]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[CRASH_TYPE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="CRASH_TYPE"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_TYPE]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[INTERSECTION_RELATED_I]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="INTERSECTION_RELATED_I"
+                      cachedSortKeyPosition="3"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INTERSECTION_RELATED_I]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[NOT_RIGHT_OF_WAY_I]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="NOT_RIGHT_OF_WAY_I"
+                      cachedSortKeyPosition="4"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NOT_RIGHT_OF_WAY_I]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[HIT_AND_RUN_I]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="HIT_AND_RUN_I"
+                      cachedSortKeyPosition="5"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[HIT_AND_RUN_I]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[DAMAGE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="13"
+                      cachedName="DAMAGE"
+                      cachedSortKeyPosition="6"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DAMAGE]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[DATE_POLICE_NOTIFIED]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DATE_POLICE_NOTIFIED"
+                      cachedSortKeyPosition="7"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DATE_POLICE_NOTIFIED]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[PRIM_CONTRIBUTORY_CAUSE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="80"
+                      cachedName="PRIM_CONTRIBUTORY_CAUSE"
+                      cachedSortKeyPosition="8"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[SEC_CONTRIBUTORY_CAUSE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="80"
+                      cachedName="SEC_CONTRIBUTORY_CAUSE"
+                      cachedSortKeyPosition="9"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[CRASH_DATE_EST_I]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="CRASH_DATE_EST_I"
+                      cachedSortKeyPosition="10"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE_EST_I]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[DOORING_I]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="DOORING_I"
+                      cachedSortKeyPosition="11"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DOORING_I]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[LANE_CNT]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="LANE_CNT"
+                      cachedSortKeyPosition="12"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LANE_CNT]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[NUM_UNITS]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NUM_UNITS"
+                      cachedSortKeyPosition="13"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NUM_UNITS]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[MOST_SEVERE_INJURY]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="24"
+                      cachedName="MOST_SEVERE_INJURY"
+                      cachedSortKeyPosition="14"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[MOST_SEVERE_INJURY]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[FIRST_CRASH_TYPE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="28"
+                      cachedName="FIRST_CRASH_TYPE"
+                      cachedSortKeyPosition="15"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[FIRST_CRASH_TYPE]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[PHOTOS_TAKEN_I]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="PHOTOS_TAKEN_I"
+                      cachedSortKeyPosition="16"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PHOTOS_TAKEN_I]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[STATEMENTS_TAKEN_I]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="STATEMENTS_TAKEN_I"
+                      cachedSortKeyPosition="17"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STATEMENTS_TAKEN_I]"
+                      usageType="readWrite" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Script Component.Outputs[Output 0]"
+                  name="Output 0"
+                  synchronousInputId="Package\Data Flow Task\Script Component.Inputs[Input 0]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
@@ -2963,7 +4572,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[REPORT_TYPE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="26"
                       cachedName="REPORT_TYPE"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[REPORT_TYPE]">
                       <properties>
@@ -2981,7 +4590,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[CRASH_TYPE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="32"
                       cachedName="CRASH_TYPE"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[CRASH_TYPE]">
                       <properties>
@@ -2999,7 +4608,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INTERSECTION_RELATED_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="INTERSECTION_RELATED_I"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[INTERSECTION_RELATED_I]">
                       <properties>
@@ -3017,7 +4626,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[NOT_RIGHT_OF_WAY_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="NOT_RIGHT_OF_WAY_I"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[NOT_RIGHT_OF_WAY_I]">
                       <properties>
@@ -3035,7 +4644,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[HIT_AND_RUN_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="HIT_AND_RUN_I"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[HIT_AND_RUN_I]">
                       <properties>
@@ -3053,7 +4662,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[DAMAGE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="13"
                       cachedName="DAMAGE"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[DAMAGE]">
                       <properties>
@@ -3069,7 +4678,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[DATE_POLICE_NOTIFIED]"
-                      cachedCodepage="1252"
+                      cachedCodepage="1250"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="DATE_POLICE_NOTIFIED"
@@ -3089,7 +4698,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[PRIM_CONTRIBUTORY_CAUSE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="80"
                       cachedName="PRIM_CONTRIBUTORY_CAUSE"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[PRIM_CONTRIBUTORY_CAUSE]">
                       <properties>
@@ -3107,7 +4716,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[SEC_CONTRIBUTORY_CAUSE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="80"
                       cachedName="SEC_CONTRIBUTORY_CAUSE"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[SEC_CONTRIBUTORY_CAUSE]">
                       <properties>
@@ -3125,7 +4734,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[CRASH_DATE_EST_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="CRASH_DATE_EST_I"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[CRASH_DATE_EST_I]">
                       <properties>
@@ -3143,7 +4752,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[DOORING_I]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="1"
                       cachedName="DOORING_I"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[DOORING_I]">
                       <properties>
@@ -3159,7 +4768,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[LANE_CNT]"
-                      cachedCodepage="1252"
+                      cachedCodepage="1250"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="LANE_CNT"
@@ -3177,7 +4786,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[NUM_UNITS]"
-                      cachedCodepage="1252"
+                      cachedCodepage="1250"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="NUM_UNITS"
@@ -3197,7 +4806,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[MOST_SEVERE_INJURY]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="24"
                       cachedName="MOST_SEVERE_INJURY"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[MOST_SEVERE_INJURY]">
                       <properties>
@@ -3215,7 +4824,7 @@
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[FIRST_CRASH_TYPE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="28"
                       cachedName="FIRST_CRASH_TYPE"
                       lineageId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output].Columns[FIRST_CRASH_TYPE]">
                       <properties>
@@ -3279,7 +4888,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[REPORT_TYPE]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="26"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[REPORT_TYPE]"
                       name="REPORT_TYPE"
                       sortKeyPosition="1">
@@ -3295,7 +4904,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_TYPE]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="32"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_TYPE]"
                       name="CRASH_TYPE"
                       sortKeyPosition="2">
@@ -3311,7 +4920,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INTERSECTION_RELATED_I]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INTERSECTION_RELATED_I]"
                       name="INTERSECTION_RELATED_I"
                       sortKeyPosition="3">
@@ -3327,7 +4936,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NOT_RIGHT_OF_WAY_I]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NOT_RIGHT_OF_WAY_I]"
                       name="NOT_RIGHT_OF_WAY_I"
                       sortKeyPosition="4">
@@ -3343,7 +4952,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[HIT_AND_RUN_I]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[HIT_AND_RUN_I]"
                       name="HIT_AND_RUN_I"
                       sortKeyPosition="5">
@@ -3359,7 +4968,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DAMAGE]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="13"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DAMAGE]"
                       name="DAMAGE"
                       sortKeyPosition="6">
@@ -3373,7 +4982,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DATE_POLICE_NOTIFIED]"
-                      codePage="1252"
+                      codePage="1250"
                       dataType="str"
                       length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DATE_POLICE_NOTIFIED]"
@@ -3391,7 +5000,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="80"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
                       name="PRIM_CONTRIBUTORY_CAUSE"
                       sortKeyPosition="8">
@@ -3407,7 +5016,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="80"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
                       name="SEC_CONTRIBUTORY_CAUSE"
                       sortKeyPosition="9">
@@ -3423,7 +5032,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE_EST_I]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE_EST_I]"
                       name="CRASH_DATE_EST_I"
                       sortKeyPosition="10">
@@ -3439,7 +5048,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DOORING_I]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="1"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DOORING_I]"
                       name="DOORING_I"
                       sortKeyPosition="11">
@@ -3453,7 +5062,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LANE_CNT]"
-                      codePage="1252"
+                      codePage="1250"
                       dataType="str"
                       length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LANE_CNT]"
@@ -3469,7 +5078,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NUM_UNITS]"
-                      codePage="1252"
+                      codePage="1250"
                       dataType="str"
                       length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NUM_UNITS]"
@@ -3487,7 +5096,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[MOST_SEVERE_INJURY]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="24"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[MOST_SEVERE_INJURY]"
                       name="MOST_SEVERE_INJURY"
                       sortKeyPosition="14">
@@ -3503,7 +5112,7 @@
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[FIRST_CRASH_TYPE]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="28"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[FIRST_CRASH_TYPE]"
                       name="FIRST_CRASH_TYPE"
                       sortKeyPosition="15">
@@ -3565,8 +5174,13 @@
               name="Flat File Source Output"
               startId="Package\Data Flow Task\Flat File Source 1.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Sort Output]"
+              refId="Package\Data Flow Task.Paths[Output 0]"
               endId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]"
+              name="Output 0"
+              startId="Package\Data Flow Task\Script Component.Outputs[Output 0]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Sort Output]"
+              endId="Package\Data Flow Task\Script Component.Inputs[Input 0]"
               name="Sort Output"
               startId="Package\Data Flow Task\Sort.Outputs[Sort Output]" />
           </paths>
@@ -3650,61 +5264,41 @@
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Data Flow Task\Script Component"
+          TopLeft="556,293" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="448,551" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Data Flow Task\Sort"
+          TopLeft="495,177" />
         <NodeLayout
           Size="160,42"
           Id="Package\Data Flow Task\Flat File Source 1"
           TopLeft="465,86" />
         <NodeLayout
-          Size="98,42"
-          Id="Package\Data Flow Task\Sort"
-          TopLeft="500,180" />
-        <NodeLayout
           Size="156,42"
           Id="Package\Data Flow Task\Data Conversion"
-          TopLeft="465,280" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="449,424" />
+          TopLeft="505,398" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Data Conversion Output]"
-          TopLeft="540.25,322">
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="544.5,128">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,102"
+              EndConnector="0,49"
               Start="0,0"
-              End="0,94.5">
+              End="0,41.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,94.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,39.25,16,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output]"
-          TopLeft="546,222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,58"
-              Start="0,0"
-              End="0,50.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,50.5" />
+                    End="0,41.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3714,19 +5308,99 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="547,128">
+          Id="Package\Data Flow Task.Paths[Data Conversion Output]"
+          TopLeft="583,440">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52"
+              EndConnector="-49.5,111"
               Start="0,0"
-              End="0,44.5">
+              End="-49.5,103.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.5" />
+                    End="0,51.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,51.5"
+                    Point2="0,55.5"
+                    Point3="-4,55.5" />
+                  <mssgle:LineSegment
+                    End="-45.5,55.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-45.5,55.5"
+                    Point2="-49.5,55.5"
+                    Point3="-49.5,59.5" />
+                  <mssgle:LineSegment
+                    End="-49.5,103.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output]"
+          TopLeft="544,219">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="93.5,74"
+              Start="0,0"
+              End="93.5,66.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33"
+                    Point2="0,37"
+                    Point3="4,37" />
+                  <mssgle:LineSegment
+                    End="89.5,37" />
+                  <mssgle:CubicBezierSegment
+                    Point1="89.5,37"
+                    Point2="93.5,37"
+                    Point3="93.5,41" />
+                  <mssgle:LineSegment
+                    End="93.5,66.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Output 0]"
+          TopLeft="637.5,335">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-54.5,63"
+              Start="0,0"
+              End="-54.5,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.5"
+                    Point2="0,31.5"
+                    Point3="-4,31.5" />
+                  <mssgle:LineSegment
+                    End="-50.5,31.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-50.5,31.5"
+                    Point2="-54.5,31.5"
+                    Point3="-54.5,35.5" />
+                  <mssgle:LineSegment
+                    End="-54.5,55.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

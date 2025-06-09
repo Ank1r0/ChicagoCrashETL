@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="28"
-  DTS:VersionGUID="{FBA54A82-68CF-4EE7-A74A-84FB0ECE4E84}">
+  DTS:VersionBuild="43"
+  DTS:VersionGUID="{BBBCC58A-CC41-4797-A3F1-22D26241465B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -981,918 +981,16 @@
                   name="Flat File Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_RECORD_ID]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[CRASH_RECORD_ID]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_RECORD_ID]"
-                      name="CRASH_RECORD_ID"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_DATE_EST_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[CRASH_DATE_EST_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_DATE_EST_I]"
-                      name="CRASH_DATE_EST_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_DATE]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[CRASH_DATE]"
                       length="50"
                       lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_DATE]"
                       name="CRASH_DATE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[POSTED_SPEED_LIMIT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[POSTED_SPEED_LIMIT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[POSTED_SPEED_LIMIT]"
-                      name="POSTED_SPEED_LIMIT"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFIC_CONTROL_DEVICE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[TRAFFIC_CONTROL_DEVICE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFIC_CONTROL_DEVICE]"
-                      name="TRAFFIC_CONTROL_DEVICE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DEVICE_CONDITION]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[DEVICE_CONDITION]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DEVICE_CONDITION]"
-                      name="DEVICE_CONDITION"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WEATHER_CONDITION]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[WEATHER_CONDITION]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WEATHER_CONDITION]"
-                      name="WEATHER_CONDITION"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LIGHTING_CONDITION]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[LIGHTING_CONDITION]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LIGHTING_CONDITION]"
-                      name="LIGHTING_CONDITION"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[FIRST_CRASH_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[FIRST_CRASH_TYPE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[FIRST_CRASH_TYPE]"
-                      name="FIRST_CRASH_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFICWAY_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[TRAFFICWAY_TYPE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFICWAY_TYPE]"
-                      name="TRAFFICWAY_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LANE_CNT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[LANE_CNT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LANE_CNT]"
-                      name="LANE_CNT"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ALIGNMENT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[ALIGNMENT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ALIGNMENT]"
-                      name="ALIGNMENT"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROADWAY_SURFACE_COND]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[ROADWAY_SURFACE_COND]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROADWAY_SURFACE_COND]"
-                      name="ROADWAY_SURFACE_COND"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROAD_DEFECT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[ROAD_DEFECT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROAD_DEFECT]"
-                      name="ROAD_DEFECT"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[REPORT_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[REPORT_TYPE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[REPORT_TYPE]"
-                      name="REPORT_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[CRASH_TYPE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_TYPE]"
-                      name="CRASH_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INTERSECTION_RELATED_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INTERSECTION_RELATED_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INTERSECTION_RELATED_I]"
-                      name="INTERSECTION_RELATED_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NOT_RIGHT_OF_WAY_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[NOT_RIGHT_OF_WAY_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NOT_RIGHT_OF_WAY_I]"
-                      name="NOT_RIGHT_OF_WAY_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[HIT_AND_RUN_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[HIT_AND_RUN_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[HIT_AND_RUN_I]"
-                      name="HIT_AND_RUN_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DAMAGE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[DAMAGE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DAMAGE]"
-                      name="DAMAGE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DATE_POLICE_NOTIFIED]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[DATE_POLICE_NOTIFIED]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DATE_POLICE_NOTIFIED]"
-                      name="DATE_POLICE_NOTIFIED"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[PRIM_CONTRIBUTORY_CAUSE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
-                      name="PRIM_CONTRIBUTORY_CAUSE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[SEC_CONTRIBUTORY_CAUSE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
-                      name="SEC_CONTRIBUTORY_CAUSE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NO]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[STREET_NO]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NO]"
-                      name="STREET_NO"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_DIRECTION]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[STREET_DIRECTION]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_DIRECTION]"
-                      name="STREET_DIRECTION"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NAME]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[STREET_NAME]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NAME]"
-                      name="STREET_NAME"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[BEAT_OF_OCCURRENCE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[BEAT_OF_OCCURRENCE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[BEAT_OF_OCCURRENCE]"
-                      name="BEAT_OF_OCCURRENCE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PHOTOS_TAKEN_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[PHOTOS_TAKEN_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PHOTOS_TAKEN_I]"
-                      name="PHOTOS_TAKEN_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STATEMENTS_TAKEN_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[STATEMENTS_TAKEN_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STATEMENTS_TAKEN_I]"
-                      name="STATEMENTS_TAKEN_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DOORING_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[DOORING_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DOORING_I]"
-                      name="DOORING_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[WORK_ZONE_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_I]"
-                      name="WORK_ZONE_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[WORK_ZONE_TYPE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_TYPE]"
-                      name="WORK_ZONE_TYPE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORKERS_PRESENT_I]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[WORKERS_PRESENT_I]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORKERS_PRESENT_I]"
-                      name="WORKERS_PRESENT_I"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NUM_UNITS]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[NUM_UNITS]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NUM_UNITS]"
-                      name="NUM_UNITS"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[MOST_SEVERE_INJURY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[MOST_SEVERE_INJURY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[MOST_SEVERE_INJURY]"
-                      name="MOST_SEVERE_INJURY"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_TOTAL]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INJURIES_TOTAL]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_TOTAL]"
-                      name="INJURIES_TOTAL"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_FATAL]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INJURIES_FATAL]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_FATAL]"
-                      name="INJURIES_FATAL"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_INCAPACITATING]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INJURIES_INCAPACITATING]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_INCAPACITATING]"
-                      name="INJURIES_INCAPACITATING"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NON_INCAPACITATING]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INJURIES_NON_INCAPACITATING]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NON_INCAPACITATING]"
-                      name="INJURIES_NON_INCAPACITATING"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_REPORTED_NOT_EVIDENT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INJURIES_REPORTED_NOT_EVIDENT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_REPORTED_NOT_EVIDENT]"
-                      name="INJURIES_REPORTED_NOT_EVIDENT"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NO_INDICATION]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INJURIES_NO_INDICATION]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NO_INDICATION]"
-                      name="INJURIES_NO_INDICATION"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_UNKNOWN]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[INJURIES_UNKNOWN]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_UNKNOWN]"
-                      name="INJURIES_UNKNOWN"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1909,12 +1007,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[CRASH_HOUR]"
                       length="50"
                       lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_HOUR]"
                       name="CRASH_HOUR"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1931,12 +1029,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[CRASH_DAY_OF_WEEK]"
                       length="50"
                       lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_DAY_OF_WEEK]"
                       name="CRASH_DAY_OF_WEEK"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1953,78 +1051,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
+                      errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[CRASH_MONTH]"
                       length="50"
                       lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_MONTH]"
                       name="CRASH_MONTH"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LATITUDE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[LATITUDE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LATITUDE]"
-                      name="LATITUDE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LONGITUDE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[LONGITUDE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LONGITUDE]"
-                      name="LONGITUDE"
-                      truncationRowDisposition="IgnoreFailure">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LOCATION]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].ExternalColumns[LOCATION]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LOCATION]"
-                      name="LOCATION"
-                      truncationRowDisposition="IgnoreFailure">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -2408,7 +1440,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions">CHECK_CONSTRAINTS</property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -2426,7 +1458,7 @@
                 <input
                   refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="IgnoreFailure"
+                  errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -2469,6 +1501,12 @@
                       cachedName="Month"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Month]"
                       lineageId="Package\Data Flow Task\Script Component.Outputs[Output 0].Columns[Month]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SDayOfWeek]"
+                      cachedDataType="i4"
+                      cachedName="SDayOfWeek"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DayOfweek]"
+                      lineageId="Package\Data Flow Task\Script Component.Outputs[Output 0].Columns[SDayOfWeek]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2500,6 +1538,10 @@
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
                       dataType="i4"
                       name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DayOfweek]"
+                      dataType="i4"
+                      name="DayOfweek" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2871,6 +1913,7 @@ public class ScriptMain : UserComponent
                 Row.Day = temp1.Day;
                 Row.Hour = temp1.Hour;
                 Row.Minute = temp1.Minute;
+                Row.SDayOfWeek = ((int)temp1.DayOfWeek + 1) ;
             }
             
             
@@ -2903,7 +1946,7 @@ public class ScriptMain : UserComponent
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SC_3c537fcd33dd4a448be9d76a5536fc0f</RootNamespace>
-    <AssemblyName>SC_3c537fcd33dd4a448be9d76a5536fc0f</AssemblyName>
+    <AssemblyName>SC_233D7A12F81441E792A37D0BCEEA0316</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
@@ -3051,36 +2094,29 @@ public class Input0Buffer: ScriptBuffer
         }
     }
 
-    public Int32 Hour
+    public String CRASHDAYOFWEEK
     {
-        set
+        get
         {
-            this[1] = value;
+            return Buffer.GetString(BufferColumnIndexes[1]);
         }
     }
-    public bool Hour_IsNull
+    public bool CRASHDAYOFWEEK_IsNull
     {
-        set
+        get
         {
-            if (value)
-            {
-                SetNull(1);
-            }
-            else
-            {
-                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
-            }
+            return IsNull(1);
         }
     }
 
-    public Int32 Minute
+    public Int32 Hour
     {
         set
         {
             this[2] = value;
         }
     }
-    public bool Minute_IsNull
+    public bool Hour_IsNull
     {
         set
         {
@@ -3095,14 +2131,14 @@ public class Input0Buffer: ScriptBuffer
         }
     }
 
-    public Int32 Day
+    public Int32 Minute
     {
         set
         {
             this[3] = value;
         }
     }
-    public bool Day_IsNull
+    public bool Minute_IsNull
     {
         set
         {
@@ -3117,14 +2153,14 @@ public class Input0Buffer: ScriptBuffer
         }
     }
 
-    public Int32 Month
+    public Int32 Day
     {
         set
         {
             this[4] = value;
         }
     }
-    public bool Month_IsNull
+    public bool Day_IsNull
     {
         set
         {
@@ -3139,11 +2175,33 @@ public class Input0Buffer: ScriptBuffer
         }
     }
 
-    public Int32 Year
+    public Int32 Month
     {
         set
         {
             this[5] = value;
+        }
+    }
+    public bool Month_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(5);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public Int32 Year
+    {
+        set
+        {
+            this[6] = value;
         }
     }
     public bool Year_IsNull
@@ -3152,7 +2210,29 @@ public class Input0Buffer: ScriptBuffer
         {
             if (value)
             {
-                SetNull(5);
+                SetNull(6);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public Int32 SDayOfWeek
+    {
+        set
+        {
+            this[7] = value;
+        }
+    }
+    public bool SDayOfWeek_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(7);
             }
             else
             {
@@ -3184,7 +2264,7 @@ public class Input0Buffer: ScriptBuffer
     <msb:CodeName>SC_3c537fcd33dd4a448be9d76a5536fc0f</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>SC_3c537fcd33dd4a448be9d76a5536fc0f</msb:DisplayName>
-    <msb:ProjectId>{F65034B0-8F66-4C0E-9973-5567604E8177}</msb:ProjectId>
+    <msb:ProjectId>{127F4955-DB31-4093-9FD9-189C8F990283}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="SC_3c537fcd33dd4a448be9d76a5536fc0f.csproj" />
@@ -3327,143 +2407,117 @@ namespace SC_3c537fcd33dd4a448be9d76a5536fc0f.Properties {
                   <arrayElements
                     arrayElementCount="2">
                     <arrayElement
-                      dataType="System.String"><![CDATA[SC_3c537fcd33dd4a448be9d76a5536fc0f.dll]]></arrayElement>
+                      dataType="System.String"><![CDATA[SC_233D7A12F81441E792A37D0BCEEA0316.dll]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDABDxNWgAAAAAAAAAAOAAIiALATAAABYAAAAIAAAAAAAA3jQA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAFI1RmgAAAAAAAAAAOAAIiALATAAABgAAAAIAAAAAAAAFjYA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAIw0AABPAAAAAEAAAFwEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAMQ1AABPAAAAAEAAAFwEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAA5BQAAAAgAAAAFgAAAAIA
-AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAFwEAAAAQAAAAAYAAAAYAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAHgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAADA
-NAAAAAAAAEgAAAACAAUAuCIAABwRAAABAAAAAAAAANQzAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACiobMAIAZAAAAAEAABEDbwcAAAYt
-TQNvBgAABigSAAAKCgMSACgTAAAKbxAAAAYDEgAoFAAACm8OAAAGAxIAKBUAAApvDAAABgMSACgW
-AAAKbwgAAAYDEgAoFwAACm8KAAAG3gxvGAAACigZAAAK3gAqARAAAAAAAABXVwAMDwAAAR4CKBQA
-AAYqKgIDBAUoGgAACipSAnsbAAAKAnscAAAKFpRvHQAACioiAhYoHgAACio6AhcDjB0AAAEoHwAA
-CipaAywIAhcoIAAACipyAQAAcHMhAAAKejoCGAOMHQAAASgfAAAKKloDLAgCGCggAAAKKnIBAABw
-cyEAAAp6OgIZA4wdAAABKB8AAAoqWgMsCAIZKCAAAAoqcgEAAHBzIQAACno6AhoDjB0AAAEoHwAA
-CipaAywIAhooIAAACipyAQAAcHMhAAAKejoCGwOMHQAAASgfAAAKKloDLAgCGyggAAAKKnIBAABw
-cyEAAAp6HgIoIgAACioeAigjAAAKKn4CKCQAAAoCAnMYAAAGfQEAAAQCAnMZAAAGfQIAAAQqkgRy
-ngAAcBpvJQAACiwVAgUCAygmAAAKDgRzBQAABm8WAAAGKkorBwIDbxcAAAYDbxIAAAYt8SoGKjoC
-KCcAAAoCA30DAAAEKjoCKCcAAAoCA30EAAAEKh4CKCcAAAoqrn4FAAAELR5yrgAAcNAHAAACKCgA
-AApvKQAACnMqAAAKgAUAAAR+BQAABCoafgYAAAQqHgKABgAABCoafgcAAAQqHgIoKwAACioucx8A
-AAaABwAABCoAAABCU0pCAQABAAAAAAAMAAAAdjQuMC4zMDMxOQAAAAAFAGwAAAC0BgAAI34AACAH
-AAD8BgAAI1N0cmluZ3MAAAAAHA4AACABAAAjVVMAPA8AABAAAAAjR1VJRAAAAEwPAADQAQAAI0Js
-b2IAAAAAAAAAAgAAAVcVogEJAQAAAPoBMwAWAAABAAAAIwAAAAgAAAAHAAAAIAAAABcAAAArAAAA
-EAAAAAEAAAADAAAADwAAABAAAAABAAAABAAAAAEAAAAAAFgDAQAAAAAABgABAiIFBgCVAiIFBgBN
-AQ8FDwCWBQAABgB6AUAEBgDkAUAEBgDFAUAEBgB8AkAEBgAhAkAEBgA6AkAEBgCRAUAEBgCsAQoD
-CgBVApQABgCBAPgDBgBiBPgDCgDPBJQADgDABJQACgCJBJQACgBcBpQABgAfBvgDBgAwAQ8FBgDg
-BEIFBgB9BCsEEgAAAUIDEgBhAUIDEgDiABYEBgAVASIFBgBvAPgDBgABAPgDBgBSBPgDBgAnA/gD
-BgBsBPgDBgC1APgDBgBLAPgDBgDxBkAEAAAAAAcAAAAAAAEAAQABABAACwQAABAAAQABAAEAEACz
-BAAAQQABAAUAAQAQAD4GAABNAAEAFAABABAAEwYAAFEAAwAYAAEAEADUBQAAUQAEABkAAAAQAEkF
-pQVRAAUAGgAAARAAAwalBWkABwAeAAYAEwaQAAYA1AWUAAEATAaYAAEATAaYABEA/wOcABEA0gCg
-ABEALwCkAFAgAAAAAMYAswIGAAEAWCAAAAAAxgC+AgYAAQBgIAAAAADGAL4GqAABAOAgAAAAAIYY
-8AQGAAIA6CAAAAAAhhjwBDMAAgDzIAAAAACGCBgAKgAFAAghAAAAAIYIgANVAAUAESEAAAAAhggG
-BQEABQAgIQAAAACGCMgDrgAGADchAAAAAIYI1QIBAAcARiEAAAAAhgiVA64ACABdIQAAAACGCOUG
-AQAJAGwhAAAAAIYI2AOuAAoAgyEAAAAAhgg4AwEACwCSIQAAAACGCKcDrgAMAKkhAAAAAIYIqgQB
-AA0AuCEAAAAAhgi4A64ADgDPIQAAAACGANUGVQAPANchAAAAAIYAJgZVAA8A3yEAAAAAhhjwBAYA
-DwD/IQAAAADGALEGswAPACQiAAAAAMYBqgaoABMANyIAAAAAxgG+BqgAFAA5IgAAAACGGPAEvQAV
-AEgiAAAAAIYY8AS9ABYAVyIAAAAAgxjwBAYAFwBfIgAAAACTCNwEwwAXAIsiAAAAAJMIugDIABcA
-kiIAAAAAkwjGAM0AFwCaIgAAAACWCDIG0wAYAKEiAAAAAIYY8AQGABgAqSIAAAAAkRj2BNgAGAAA
-AAEA2QYAAAEA1QQAAAIA3gUAAAMAlwQAAAEA4AIAAAEA4AIAAAEA4AIAAAEA4AIAAAEA4AIAAAEA
-4AIAAAEA4AIAAAEA4AIAAAEA4AIAAAEA4AIAAAEAEAAAAAIAdwAAAAMA1QQAAAQAlwQAAAEA1QQA
-AAEA2QYAAAEAYgYAAAEAYgYAAAEA4AIJAPAEAQARAPAEBgAZAPAECgApAPAEEAAxAPAEEAA5APAE
-EABBAPAEEABJAPAEEABRAPAEEABZAPAEEABhAPAEEABpAPAEBgCpAPAEBgDJAPAEFQDZAPAEBgCZ
-ALMCBgCZAL4CBgBxAPoAIABxAKEEJgBxAC4DJgBxAN0GJgBxAP0EJgBxAMoCJgB5AD8AKgDhAIoA
-LgCBAPAEMwCBANUEPQCBAN4FQQCJACQDRQCBAOADSgCBAO8DTwCBAOcDAQDxAPAEEACBANUGVQCB
-ACYGVQCZAPAEBgD5AAwGWQCZAPIFYQChAPAEBgAJAV0AZwAJAe0GcACxAPAEdgDRAPAEBgAuAAsA
-9wAuABMAAAEuABsAHwEuACMAKAEuACsAUQEuADMAUQEuADsAVwEuAEMAKAEuAEsAYgEuAFMAUQEu
-AFsAfgFDAGMAyAHhAHsAyAHjAGsAyAGpAXMAHwHJAXMAHwEbAAMAAQAHAA0ACAAPAAAAHADcAAAA
-hAPgAAAACgXkAAAAzAPgAAAA2QLkAAAAmQPgAAAA6QbkAAAA3APgAAAAPAPkAAAAqwPgAAAArgTk
-AAAAvAPgAAAA4AToAAAA2gDtAAAANgbyAAIABgADAAIABwAFAAEACAAHAAEACQAJAAEACgALAAEA
-CwANAAEADAAPAAEADQARAAEADgATAAEADwAVAAEAEAAXAAEAEQAZAAIAGwAbAAIAHAAdAAEAHQAd
-AAIAHgAfAASAAAABAAAAAAAAAAAAAAAAAOYCAAAEAAAAAAAAAAAAAAB+ACYAAAAAABAAAAAAAAAA
-AAAAAIcAbAYAAAAAEAAAAAAAAAAAAAAAhwCJBgAAAAAEAAAAAAAAAAAAAAB+APgDAAAAAAAAAAAB
-AAAAUwUAAAAAAAAASW50MzIAPE1vZHVsZT4ASW5wdXRJRABnZXRfQ1JBU0hEQVRFAG1zY29ybGli
-AGRlZmF1bHRJbnN0YW5jZQBnZXRfTWVzc2FnZQBSdW50aW1lVHlwZUhhbmRsZQBHZXRUeXBlRnJv
-bUhhbmRsZQBDb25zb2xlAElucHV0TmFtZQBEYXRlVGltZQBXcml0ZUxpbmUATWljcm9zb2Z0LlNx
-bFNlcnZlci5EdHMuUGlwZWxpbmUAVHlwZQBnZXRfQ3VsdHVyZQBzZXRfQ3VsdHVyZQByZXNvdXJj
-ZUN1bHR1cmUAQXBwbGljYXRpb25TZXR0aW5nc0Jhc2UAUGFyc2UARWRpdG9yQnJvd3NhYmxlU3Rh
-dGUAQ29tcGlsZXJHZW5lcmF0ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25Vc2VyQ29kZUF0dHJpYnV0
-ZQBEZWJ1Z2dhYmxlQXR0cmlidXRlAEVkaXRvckJyb3dzYWJsZUF0dHJpYnV0ZQBBc3NlbWJseVRp
-dGxlQXR0cmlidXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAFRhcmdldEZyYW1ld29ya0F0
-dHJpYnV0ZQBBc3NlbWJseUNvbmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNzZW1ibHlEZXNjcmlwdGlv
-bkF0dHJpYnV0ZQBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAEFzc2VtYmx5UHJvZHVj
-dEF0dHJpYnV0ZQBBc3NlbWJseUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lTU2NyaXB0Q29tcG9uZW50
-RW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBh
-dGliaWxpdHlBdHRyaWJ1dGUAUHJlRXhlY3V0ZQBQb3N0RXhlY3V0ZQBnZXRfTWludXRlAHNldF9N
-aW51dGUAdmFsdWUAU0NfM2M1MzdmY2QzM2RkNGE0NDhiZTlkNzZhNTUzNmZjMGYAU3lzdGVtLlJ1
-bnRpbWUuVmVyc2lvbmluZwBHZXRTdHJpbmcAZ2V0X01vbnRoAHNldF9Nb250aABTeXN0ZW0uQ29t
-cG9uZW50TW9kZWwAU0NfM2M1MzdmY2QzM2RkNGE0NDhiZTlkNzZhNTUzNmZjMGYuZGxsAGdldF9D
-UkFTSERBVEVfSXNOdWxsAHNldF9NaW51dGVfSXNOdWxsAHNldF9Nb250aF9Jc051bGwAc2V0X1ll
-YXJfSXNOdWxsAHNldF9Ib3VyX0lzTnVsbABzZXRfRGF5X0lzTnVsbABTZXROdWxsAHNldF9JdGVt
-AFN5c3RlbQByZXNvdXJjZU1hbgBTY3JpcHRNYWluAFN5c3RlbS5Db25maWd1cmF0aW9uAFN5c3Rl
-bS5HbG9iYWxpemF0aW9uAFN5c3RlbS5SZWZsZWN0aW9uAEludmFsaWRPcGVyYXRpb25FeGNlcHRp
-b24AU3RyaW5nQ29tcGFyaXNvbgBDdWx0dXJlSW5mbwBPdXRwdXROYW1lTWFwAE91dHB1dE1hcABn
-ZXRfWWVhcgBzZXRfWWVhcgBJbnB1dDBCdWZmZXIAUGlwZWxpbmVCdWZmZXIAU2NyaXB0QnVmZmVy
-AGdldF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAGdldF9Ib3VyAHNldF9Ib3VyAFN5c3Rl
-bS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNv
-dXJjZXMAU0NfM2M1MzdmY2QzM2RkNGE0NDhiZTlkNzZhNTUzNmZjMGYuUHJvcGVydGllcy5SZXNv
-dXJjZXMucmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNDXzNjNTM3ZmNkMzNkZDRhNDQ4YmU5ZDc2
-YTU1MzZmYzBmLlByb3BlcnRpZXMAVmFyaWFibGVzAEJ1ZmZlckNvbHVtbkluZGV4ZXMAR2V0Q29s
-dW1uSW5kZXhlcwBTZXR0aW5ncwBFcXVhbHMAQ29ubmVjdGlvbnMAT2JqZWN0AEVuZE9mUm93c2V0
-AGdldF9EZWZhdWx0AFVzZXJDb21wb25lbnQAUGFyZW50Q29tcG9uZW50AFNjcmlwdENvbXBvbmVu
-dABNaWNyb3NvZnQuU3FsU2VydmVyLlR4U2NyaXB0AE1pY3Jvc29mdC5TcWxTZXJ2ZXIuUGlwZWxp
-bmVIb3N0AElucHV0MF9Qcm9jZXNzSW5wdXQASW5wdXQwX1Byb2Nlc3NJbnB1dFJvdwBOZXh0Um93
-AGdldF9EYXkAc2V0X0RheQBnZXRfQXNzZW1ibHkAAAAAgJtJAHMATgB1AGwAbAAgAHAAcgBvAHAA
-ZQByAHQAeQAgAGMAYQBuAG4AbwB0ACAAYgBlACAAcwBlAHQAIAB0AG8AIABGAGEAbABzAGUALgAg
-AEEAcwBzAGkAZwBuACAAYQAgAHYAYQBsAHUAZQAgAHQAbwAgAHQAaABlACAAYwBvAGwAdQBtAG4A
-IABpAG4AcwB0AGUAYQBkAC4AAA9JAG4AcAB1AHQAIAAwAABxUwBDAF8AMwBjADUAMwA3AGYAYwBk
-ADMAMwBkAGQANABhADQANAA4AGIAZQA5AGQANwA2AGEANQA1ADMANgBmAGMAMABmAC4AUAByAG8A
-cABlAHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAADIvpGkvv7tSbCt3AvM3vlVAAQgAQEI
-AyAAAQUgAQEREQQgAQEOBSABARFhBAcBETkFAAEROQ4DIAAIAyAADgQAAQEOCSADARJFHQgSSQMG
-EkUDBh0IBCABDggEIAECCAUgAgEIHAMgAAIHIAICDhGAgQUgAR0ICAgAARKAhRGAiQUgABKAjQcg
-AgEOEoCNCLd6XFYZNOCJCImEXc2AgMyRAwYSFAMGEhgDBhJNAwYSWQMGEl0DBhIgBSABARIMBCAB
-AQIJIAQBCA4SRRJJBSABARJNBAAAElkEAAASXQUAAQESXQQAABIgAwAAAQMoAA4DKAACAygACAQI
-ABJZBAgAEl0ECAASIAgBAAgAAAAAAB4BAAEAVAIWV3JhcE5vbkV4Y2VwdGlvblRocm93cwEIAQAC
-AAAAAAAoAQAjU0NfM2M1MzdmY2QzM2RkNGE0NDhiZTlkNzZhNTUzNmZjMGYAAAUBAAAAAAoBAAVQ
-SkFUSwAAGwEAFkNvcHlyaWdodCBAIFBKQVRLIDIwMjUAAEkBABouTkVURnJhbWV3b3JrLFZlcnNp
-b249djQuNwEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43BAEAAAAA
-AAC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29y
-bGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3
-YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAA
-AAAAAFBBRFBBRFC0AAAAtDQAAAAAAAAAAAAAzjQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA0
-AAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAAAABI
-AAAAWEAAAAAEAAAAAAAAAAAAAAAENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBPAAAA
-AAC9BO/+AAABAAAAAQAAAAAAAAABAAAAAAA/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAARAAA
-AAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBvAG4A
-AAAAAAAAsARgAwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAAA8AwAAAQAwADAAMAAw
-ADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAALAAGAAEAQwBvAG0AcABhAG4A
-eQBOAGEAbQBlAAAAAABQAEoAQQBUAEsAAABwACQAAQBGAGkAbABlAEQAZQBzAGMAcgBpAHAAdABp
-AG8AbgAAAAAAUwBDAF8AMwBjADUAMwA3AGYAYwBkADMAMwBkAGQANABhADQANAA4AGIAZQA5AGQA
-NwA2AGEANQA1ADMANgBmAGMAMABmAAAAMAAIAAEARgBpAGwAZQBWAGUAcgBzAGkAbwBuAAAAAAAx
-AC4AMAAuADAALgAwAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAEMAXwAzAGMA
-NQAzADcAZgBjAGQAMwAzAGQAZAA0AGEANAA0ADgAYgBlADkAZAA3ADYAYQA1ADUAMwA2AGYAYwAw
-AGYALgBkAGwAbAAAAFIAFwABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMAbwBwAHkA
-cgBpAGcAaAB0ACAAQAAgAFAASgBBAFQASwAgADIAMAAyADUAAAAAACoAAQABAEwAZQBnAGEAbABU
-AHIAYQBkAGUAbQBhAHIAawBzAAAAAAAAAAAAeAAoAAEATwByAGkAZwBpAG4AYQBsAEYAaQBsAGUA
-bgBhAG0AZQAAAFMAQwBfADMAYwA1ADMANwBmAGMAZAAzADMAZABkADQAYQA0ADQAOABiAGUAOQBk
-ADcANgBhADUANQAzADYAZgBjADAAZgAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEA
-bQBlAAAAAABTAEMAXwAzAGMANQAzADcAZgBjAGQAMwAzAGQAZAA0AGEANAA0ADgAYgBlADkAZAA3
-ADYAYQA1ADUAMwA2AGYAYwAwAGYAAAA0AAgAAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4A
-AAAxAC4AMAAuADAALgAwAAAAOAAIAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAA
-ADEALgAwAC4AMAAuADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAwAAADgNAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAHBYAAAAgAAAAGAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAFwEAAAAQAAAAAYAAAAaAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAIAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAD4
+NQAAAAAAAEgAAAACAAUADCMAAAASAAABAAAAAAAAAAw1AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACiobMAMAcwAAAAEAABEDbwcAAAYt
+XANvBgAABigSAAAKCgMSACgTAAAKbxIAAAYDEgAoFAAACm8QAAAGAxIAKBUAAApvDgAABgMSACgW
+AAAKbwoAAAYDEgAoFwAACm8MAAAGAxIAKBgAAAoXWG8UAAAG3gxvGQAACigaAAAK3gAqAAEQAAAA
+AAAAZmYADA8AAAEeAigYAAAGKioCAwQFKBsAAAoqUgJ7HAAACgJ7HQAAChaUbx4AAAoqIgIWKB8A
+AAoqUgJ7HAAACgJ7HQAACheUbx4AAAoqIgIXKB8AAAoqOgIYA4weAAABKCAAAAoqWgMsCAIYKCEA
+AAoqcgEAAHBzIgAACno6AhkDjB4AAAEoIAAACipaAywIAhkoIQAACipyAQAAcHMiAAAKejoCGgOM
+HgAAASggAAAKKloDLAgCGighAAAKKnIBAABwcyIAAAp6OgIbA4weAAABKCAAAAoqWgMsCAIbKCEA
+AAoqcgEAAHBzIgAACno6AhwDjB4AAAEoIAAACipaAywIAhwoIQAACipyAQAAcHMiAAAKejoCHQOM
+HgAAASggAAAKKloDLAgCHSghAAAKKnIBAABwcyIAAAp6HgIoIwAACioeAigkAAAKKn4CKCUAAAoC
+AnMcAAAGfQEAAAQCAnMdAAAGfQIAAAQqkgRyngAAcBpvJgAACiwVAgUCAygnAAAKDgRzBQAABm8a
+AAAGKkorBwIDbxsAAAYDbxYAAAYt8SoGKjoCKCgAAAoCA30DAAAEKjoCKCgAAAoCA30EAAAEKh4C
+KCgAAAoqrn4FAAAELR5yrgAAcNAHAAACKCkAAApvKgAACnMrAAAKgAUAAAR+BQAABCoafgYAAAQq
+HgKABgAABCoafgcAAAQqHgIoLAAACioucyMAAAaABwAABCoAAABCU0pCAQABAAAAAAAMAAAAdjQu
+MC4zMDMxOQAAAAAFAGwAAAA0BwAAI34AAKAHAABcBwAAI1N0cmluZ3MAAAAA/A4AACABAAAjVVMA
+HBAAABAAAAAjR1VJRAAAACwQAADUAQAAI0Jsb2IAAAAAAAAAAgAAAVcVogEJAQAAAPoBMwAWAAAB
+AAAAJAAAAAgAAAAHAAAAJAAAABkAAAAsAAAAEAAAAAEAAAADAAAAEwAAABQAAAABAAAABAAAAAEA
+AAAAAIgDAQAAAAAABgA4AoIFBgDMAoIFBgCEAW8FDwD2BQAABgCxAaAEBgAbAqAEBgD8AaAEBgCz
+AqAEBgBYAqAEBgBxAqAEBgDIAaAEBgDjAR0DCgCMAssABgC4AFgEBgDCBFgECgAvBcsADgAgBcsA
+CgDpBMsACgC8BssABgB/BlgEBgBnAW8FBgBABaIFBgDdBIsEEgA3AXIDEgCYAXIDEgAZAXYEBgBM
+AYIFBgBoA1gEBgCmAFgEBgABAFgEBgCyBFgEBgA6A1gEBgDMBFgEBgDsAFgEBgCCAFgEBgBRB6AE
+AAAAACsAAAAAAAEAAQABABAAawQAABAAAQABAAEAEAATBQAAQQABAAUAAQAQAJ4GAABNAAEAGAAB
+ABAAcwYAAFEAAwAcAAEAEAA0BgAAUQAEAB0AAAAQAKkFBQZRAAUAHgAAARAAYwYFBmkABwAiAAYA
+cwaVAAYANAaZAAEArAadAAEArAadABEAXwShABEACQGlABEAZgCpAFAgAAAAAMYA6gIGAAEAWCAA
+AAAAxgD1AgYAAQBgIAAAAADGAB4HrQABAPAgAAAAAIYYUAUGAAIA+CAAAAAAhhhQBTgAAgADIQAA
+AACGCDwALwAFABghAAAAAIYIsANaAAUAISEAAAAAhghKAC8ABQA2IQAAAACGCMUDWgAFAD8hAAAA
+AIYIZgUBAAUATiEAAAAAhggoBLMABgBlIQAAAACGCAwDAQAHAHQhAAAAAIYI3wOzAAgAiyEAAAAA
+hghFBwEACQCaIQAAAACGCDgEswAKALEhAAAAAIYISwMBAAsAwCEAAAAAhgjxA7MADADXIQAAAACG
+CAoFAQANAOYhAAAAAIYIGASzAA4A/SEAAAAAhghVAwEADwAMIgAAAACGCAIEswAQACMiAAAAAIYA
+NQdaABEAKyIAAAAAhgCGBloAEQAzIgAAAACGGFAFBgARAFMiAAAAAMYAEQe4ABEAeCIAAAAAxgEK
+B60AFQCLIgAAAADGAR4HrQAWAI0iAAAAAIYYUAXCABcAnCIAAAAAhhhQBcIAGACrIgAAAACDGFAF
+BgAZALMiAAAAAJMIPAXIABkA3yIAAAAAkwjxAM0AGQDmIgAAAACTCP0A0gAZAO4iAAAAAJYIkgbY
+ABoA9SIAAAAAhhhQBQYAGgD9IgAAAACRGFYF3QAaAAAAAQA5BwAAAQA1BQAAAgA+BgAAAwD3BAAA
+AQAXAwAAAQAXAwAAAQAXAwAAAQAXAwAAAQAXAwAAAQAXAwAAAQAXAwAAAQAXAwAAAQAXAwAAAQAX
+AwAAAQAXAwAAAQAXAwAAAQA0AAAAAgCuAAAAAwA1BQAABAD3BAAAAQA1BQAAAQA5BwAAAQDCBgAA
+AQDCBgAAAQAXAwkAUAUBABEAUAUGABkAUAUKACkAUAUQADEAUAUQADkAUAUQAEEAUAUQAEkAUAUQ
+AFEAUAUQAFkAUAUQAGEAUAUQAGkAUAUGAKkAUAUGAMkAUAUVANkAUAUGAJkA6gIGAJkA9QIGAHEA
+MQEgAHEAAQUmAHEAQQMmAHEAPQcmAHEAXQUmAHEAAQMmAHEAZAMqAHkAdgAvAOkAwQAzAIEAUAU4
+AIEANQVCAIEAPgZGAIkANwNKAIEAQARPAIEATwRUAIEARwQBAPkAUAUQAIEANQdaAIEAhgZaAJkA
+UAUGAAEBbAZeAJkAUgZmAKEAUAUGABEBlABsABEBTQd1ALEAUAV7ANEAUAUGAC4ACwD8AC4AEwAF
+AS4AGwAkAS4AIwAtAS4AKwBWAS4AMwBWAS4AOwBcAS4AQwAtAS4ASwBnAS4AUwBWAS4AWwCDAUMA
+YwDNAeEAewDNAeMAawDNASkCcwAkAUkCcwAkARsAAwABAAcAEQAIABMAAABAAOEAAAC0A+UAAABO
+AOEAAADJA+UAAABqBekAAAAsBOUAAAAQA+kAAADjA+UAAABJB+kAAAA8BOUAAABPA+kAAAD1A+UA
+AAAOBekAAAAcBOUAAABZA+kAAAAGBOUAAABABe0AAAARAfIAAACWBvcAAgAGAAMAAgAHAAUAAgAI
+AAcAAgAJAAkAAQAKAAsAAQALAA0AAQAMAA8AAQANABEAAQAOABMAAQAPABUAAQAQABcAAQARABkA
+AQASABsAAQATAB0AAQAUAB8AAQAVACEAAgAfACMAAgAgACUAAQAhACUAAgAiACcABIAAAAEAAAAA
+AAAAAAAAAAAABwAAAAQAAAAAAAAAAAAAAIMAXQAAAAAAEAAAAAAAAAAAAAAAjADMBgAAAAAQAAAA
+AAAAAAAAAACMAOkGAAAAAAQAAAAAAAAAAAAAAIMAWAQAAAAAAAAAAAEAAACzBQAAAAAAAABJbnQz
+MgBTQ18yMzNEN0ExMkY4MTQ0MUU3OTJBMzdEMEJDRUVBMDMxNgA8TW9kdWxlPgBJbnB1dElEAGdl
+dF9DUkFTSERBVEUAZ2V0X0NSQVNIREFZT0ZXRUVLAG1zY29ybGliAGRlZmF1bHRJbnN0YW5jZQBn
+ZXRfTWVzc2FnZQBSdW50aW1lVHlwZUhhbmRsZQBHZXRUeXBlRnJvbUhhbmRsZQBDb25zb2xlAElu
+cHV0TmFtZQBEYXRlVGltZQBXcml0ZUxpbmUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUGlwZWxp
+bmUAVHlwZQBnZXRfQ3VsdHVyZQBzZXRfQ3VsdHVyZQByZXNvdXJjZUN1bHR1cmUAQXBwbGljYXRp
+b25TZXR0aW5nc0Jhc2UAUGFyc2UARWRpdG9yQnJvd3NhYmxlU3RhdGUAQ29tcGlsZXJHZW5lcmF0
+ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25Vc2VyQ29kZUF0dHJpYnV0ZQBEZWJ1Z2dhYmxlQXR0cmli
+dXRlAEVkaXRvckJyb3dzYWJsZUF0dHJpYnV0ZQBBc3NlbWJseVRpdGxlQXR0cmlidXRlAEFzc2Vt
+Ymx5VHJhZGVtYXJrQXR0cmlidXRlAFRhcmdldEZyYW1ld29ya0F0dHJpYnV0ZQBBc3NlbWJseUNv
+bmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNzZW1ibHlEZXNjcmlwdGlvbkF0dHJpYnV0ZQBDb21waWxh
+dGlvblJlbGF4YXRpb25zQXR0cmlidXRlAEFzc2VtYmx5UHJvZHVjdEF0dHJpYnV0ZQBBc3NlbWJs
+eUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lTU2NyaXB0Q29tcG9uZW50RW50cnlQb2ludEF0dHJpYnV0
+ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUA
+UHJlRXhlY3V0ZQBQb3N0RXhlY3V0ZQBnZXRfTWludXRlAHNldF9NaW51dGUAdmFsdWUAU3lzdGVt
+LlJ1bnRpbWUuVmVyc2lvbmluZwBHZXRTdHJpbmcAZ2V0X01vbnRoAHNldF9Nb250aABzZXRfU0Rh
+eU9mV2VlawBnZXRfRGF5T2ZXZWVrAFN5c3RlbS5Db21wb25lbnRNb2RlbABTQ18yMzNEN0ExMkY4
+MTQ0MUU3OTJBMzdEMEJDRUVBMDMxNi5kbGwAZ2V0X0NSQVNIREFURV9Jc051bGwAZ2V0X0NSQVNI
+REFZT0ZXRUVLX0lzTnVsbABzZXRfTWludXRlX0lzTnVsbABzZXRfTW9udGhfSXNOdWxsAHNldF9T
+RGF5T2ZXZWVrX0lzTnVsbABzZXRfWWVhcl9Jc051bGwAc2V0X0hvdXJfSXNOdWxsAHNldF9EYXlf
+SXNOdWxsAFNldE51bGwAc2V0X0l0ZW0AU3lzdGVtAHJlc291cmNlTWFuAFNjcmlwdE1haW4AU3lz
+dGVtLkNvbmZpZ3VyYXRpb24AU3lzdGVtLkdsb2JhbGl6YXRpb24AU3lzdGVtLlJlZmxlY3Rpb24A
+SW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbgBTdHJpbmdDb21wYXJpc29uAEN1bHR1cmVJbmZvAE91
+dHB1dE5hbWVNYXAAT3V0cHV0TWFwAGdldF9ZZWFyAHNldF9ZZWFyAElucHV0MEJ1ZmZlcgBQaXBl
+bGluZUJ1ZmZlcgBTY3JpcHRCdWZmZXIAZ2V0X1Jlc291cmNlTWFuYWdlcgAuY3RvcgAuY2N0b3IA
+Z2V0X0hvdXIAc2V0X0hvdXIAU3lzdGVtLkRpYWdub3N0aWNzAFN5c3RlbS5SdW50aW1lLkNvbXBp
+bGVyU2VydmljZXMAU3lzdGVtLlJlc291cmNlcwBTQ18zYzUzN2ZjZDMzZGQ0YTQ0OGJlOWQ3NmE1
+NTM2ZmMwZi5Qcm9wZXJ0aWVzLlJlc291cmNlcy5yZXNvdXJjZXMARGVidWdnaW5nTW9kZXMAU0Nf
+M2M1MzdmY2QzM2RkNGE0NDhiZTlkNzZhNTUzNmZjMGYuUHJvcGVydGllcwBWYXJpYWJsZXMAQnVm
+ZmVyQ29sdW1uSW5kZXhlcwBHZXRDb2x1bW5JbmRleGVzAFNldHRpbmdzAEVxdWFscwBDb25uZWN0
+aW9ucwBPYmplY3QARW5kT2ZSb3dzZXQAZ2V0X0RlZmF1bHQAVXNlckNvbXBvbmVudABQYXJlbnRD
+b21wb25lbnQAU2NyaXB0Q29tcG9uZW50AE1pY3Jvc29mdC5TcWxTZXJ2ZXIuVHhTY3JpcHQATWlj
+cm9zb2Z0LlNxbFNlcnZlci5QaXBlbGluZUhvc3QASW5wdXQwX1Byb2Nlc3NJbnB1dABJbnB1dDBf
+UHJvY2Vzc0lucHV0Um93AE5leHRSb3cAZ2V0X0RheQBzZXRfRGF5AGdldF9Bc3NlbWJseQAAAACA
+m0kAcwBOAHUAbABsACAAcAByAG8AcABlAHIAdAB5ACAAYwBhAG4AbgBvAHQAIABiAGUAIABzAGUA
+dAAgAHQAbwAgAEYAYQBsAHMAZQAuACAAQQBzAHMAaQBnAG4AIABhACAAdgBhAGwAdQBlACAAdABv
+ACAAdABoAGUAIABjAG8AbAB1AG0AbgAgAGkAbgBzAHQAZQBhAGQALgAAD0kAbgBwAHUAdAAgADAA
+AHFTAEMAXwAzAGMANQAzADcAZgBjAGQAMwAzAGQAZAA0AGEANAA0ADgAYgBlADkAZAA3ADYAYQA1
+ADUAMwA2AGYAYwAwAGYALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMA
+AMmYn009cGhHsZ/8scldFBIABCABAQgDIAABBSABARERBCABAQ4FIAEBEWEEBwEROQUAARE5DgMg
+AAgEIAARcQMgAA4EAAEBDgkgAwESRR0IEkkDBhJFAwYdCAQgAQ4IBCABAggFIAIBCBwDIAACByAC
+Ag4RgIUFIAEdCAgIAAESgIkRgI0FIAASgJEHIAIBDhKAkQi3elxWGTTgiQiJhF3NgIDMkQMGEhQD
+BhIYAwYSTQMGElkDBhJdAwYSIAUgAQESDAQgAQECCSAEAQgOEkUSSQUgAQESTQQAABJZBAAAEl0F
+AAEBEl0EAAASIAMAAAEDKAAOAygAAgMoAAgECAASWQQIABJdBAgAEiAIAQAIAAAAAAAeAQABAFQC
+FldyYXBOb25FeGNlcHRpb25UaHJvd3MBCAEAAgAAAAAAKAEAI1NDXzNjNTM3ZmNkMzNkZDRhNDQ4
+YmU5ZDc2YTU1MzZmYzBmAAAFAQAAAAAKAQAFUEpBVEsAABsBABZDb3B5cmlnaHQgQCBQSkFUSyAy
+MDI1AABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjcBAFQOFEZyYW1ld29ya0Rpc3BsYXlO
+YW1lEi5ORVQgRnJhbWV3b3JrIDQuNwQBAAAAAAC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNv
+dXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9
+bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2Vz
+LlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAAAAAAAFBBRFBBRFC0AAAA7DUAAAAAAAAAAAAABjYA
+AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPg1AAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3Jl
+ZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -3472,14 +2526,49 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
+AAEAEAAAABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAAADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAEgA
+AABYQAAAAAQAAAAAAAAAAAAAAAQ0AAAAVgBTAF8AVgBFAFIAUwBJAE8ATgBfAEkATgBGAE8AAAAA
+AL0E7/4AAAEAAAABAAAAAAAAAAEAAAAAAD8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABEAAAA
+AQBWAGEAcgBGAGkAbABlAEkAbgBmAG8AAAAAACQABAAAAFQAcgBhAG4AcwBsAGEAdABpAG8AbgAA
+AAAAAACwBGADAAABAFMAdAByAGkAbgBnAEYAaQBsAGUASQBuAGYAbwAAADwDAAABADAAMAAwADAA
+MAA0AGIAMAAAABoAAQABAEMAbwBtAG0AZQBuAHQAcwAAAAAAAAAsAAYAAQBDAG8AbQBwAGEAbgB5
+AE4AYQBtAGUAAAAAAFAASgBBAFQASwAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkA
+bwBuAAAAAABTAEMAXwAzAGMANQAzADcAZgBjAGQAMwAzAGQAZAA0AGEANAA0ADgAYgBlADkAZAA3
+ADYAYQA1ADUAMwA2AGYAYwAwAGYAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEA
+LgAwAC4AMAAuADAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAQwBfADIAMwAz
+AEQANwBBADEAMgBGADgAMQA0ADQAMQBFADcAOQAyAEEAMwA3AEQAMABCAEMARQBFAEEAMAAzADEA
+NgAuAGQAbABsAAAAUgAXAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQBy
+AGkAZwBoAHQAIABAACAAUABKAEEAVABLACAAMgAwADIANQAAAAAAKgABAAEATABlAGcAYQBsAFQA
+cgBhAGQAZQBtAGEAcgBrAHMAAAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBu
+AGEAbQBlAAAAUwBDAF8AMgAzADMARAA3AEEAMQAyAEYAOAAxADQANAAxAEUANwA5ADIAQQAzADcA
+RAAwAEIAQwBFAEUAQQAwADMAMQA2AC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBt
+AGUAAAAAAFMAQwBfADMAYwA1ADMANwBmAGMAZAAzADMAZABkADQAYQA0ADQAOABiAGUAOQBkADcA
+NgBhADUANQAzADYAZgBjADAAZgAAADQACAABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAA
+ADEALgAwAC4AMAAuADAAAAA4AAgAAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAA
+MQAuADAALgAwAC4AMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADAAAABg2AAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   </arrayElements>
                 </property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
                   name="VSTAProjectName"
-                  typeConverter="NOTBROWSABLE">SC_3c537fcd33dd4a448be9d76a5536fc0f</property>
+                  typeConverter="NOTBROWSABLE">SC_233d7a12f81441e792a37d0bceea0316</property>
                 <property
                   dataType="System.String"
                   description="Specifies the programming language used by the script."
@@ -3508,7 +2597,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   dataType="System.String"
                   description="Checksum to match component metedata against compiled codes."
                   name="MetadataChecksum140"
-                  typeConverter="NOTBROWSABLE">92</property>
+                  typeConverter="NOTBROWSABLE">E7</property>
                 <property
                   dataType="System.String"
                   name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
@@ -3527,6 +2616,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       cachedName="CRASH_DATE"
                       cachedSortKeyPosition="1"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Script Component.Inputs[Input 0].Columns[CRASH_DAY_OF_WEEK]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CRASH_DAY_OF_WEEK"
+                      cachedSortKeyPosition="3"
+                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DAY_OF_WEEK]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -3562,6 +2659,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       dataType="i4"
                       lineageId="Package\Data Flow Task\Script Component.Outputs[Output 0].Columns[Year]"
                       name="Year" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Script Component.Outputs[Output 0].Columns[SDayOfWeek]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Script Component.Outputs[Output 0].Columns[SDayOfWeek]"
+                      name="SDayOfWeek" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -3591,42 +2693,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[CRASH_RECORD_ID]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="CRASH_RECORD_ID"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_RECORD_ID]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[CRASH_DATE_EST_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="CRASH_DATE_EST_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_DATE_EST_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[CRASH_DATE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -3645,708 +2711,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[POSTED_SPEED_LIMIT]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="POSTED_SPEED_LIMIT"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[POSTED_SPEED_LIMIT]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[TRAFFIC_CONTROL_DEVICE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="TRAFFIC_CONTROL_DEVICE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFIC_CONTROL_DEVICE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[DEVICE_CONDITION]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DEVICE_CONDITION"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DEVICE_CONDITION]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[WEATHER_CONDITION]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WEATHER_CONDITION"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WEATHER_CONDITION]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[LIGHTING_CONDITION]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LIGHTING_CONDITION"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LIGHTING_CONDITION]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[FIRST_CRASH_TYPE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="FIRST_CRASH_TYPE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[FIRST_CRASH_TYPE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[TRAFFICWAY_TYPE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="TRAFFICWAY_TYPE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFICWAY_TYPE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[LANE_CNT]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LANE_CNT"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LANE_CNT]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[ALIGNMENT]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ALIGNMENT"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ALIGNMENT]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[ROADWAY_SURFACE_COND]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ROADWAY_SURFACE_COND"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROADWAY_SURFACE_COND]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[ROAD_DEFECT]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ROAD_DEFECT"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROAD_DEFECT]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[REPORT_TYPE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="REPORT_TYPE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[REPORT_TYPE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[CRASH_TYPE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="CRASH_TYPE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_TYPE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INTERSECTION_RELATED_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INTERSECTION_RELATED_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INTERSECTION_RELATED_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[NOT_RIGHT_OF_WAY_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="NOT_RIGHT_OF_WAY_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NOT_RIGHT_OF_WAY_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[HIT_AND_RUN_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="HIT_AND_RUN_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[HIT_AND_RUN_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[DAMAGE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DAMAGE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DAMAGE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[DATE_POLICE_NOTIFIED]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DATE_POLICE_NOTIFIED"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DATE_POLICE_NOTIFIED]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[PRIM_CONTRIBUTORY_CAUSE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="PRIM_CONTRIBUTORY_CAUSE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PRIM_CONTRIBUTORY_CAUSE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[SEC_CONTRIBUTORY_CAUSE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="SEC_CONTRIBUTORY_CAUSE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[SEC_CONTRIBUTORY_CAUSE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[STREET_NO]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="STREET_NO"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NO]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[STREET_DIRECTION]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="STREET_DIRECTION"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_DIRECTION]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[STREET_NAME]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="STREET_NAME"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NAME]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[BEAT_OF_OCCURRENCE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="BEAT_OF_OCCURRENCE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[BEAT_OF_OCCURRENCE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[PHOTOS_TAKEN_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="PHOTOS_TAKEN_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PHOTOS_TAKEN_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[STATEMENTS_TAKEN_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="STATEMENTS_TAKEN_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STATEMENTS_TAKEN_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[DOORING_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DOORING_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DOORING_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[WORK_ZONE_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WORK_ZONE_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[WORK_ZONE_TYPE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WORK_ZONE_TYPE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_TYPE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[WORKERS_PRESENT_I]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WORKERS_PRESENT_I"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORKERS_PRESENT_I]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[NUM_UNITS]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="NUM_UNITS"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NUM_UNITS]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[MOST_SEVERE_INJURY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="MOST_SEVERE_INJURY"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[MOST_SEVERE_INJURY]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INJURIES_TOTAL]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INJURIES_TOTAL"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_TOTAL]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INJURIES_FATAL]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INJURIES_FATAL"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_FATAL]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INJURIES_INCAPACITATING]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INJURIES_INCAPACITATING"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_INCAPACITATING]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INJURIES_NON_INCAPACITATING]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INJURIES_NON_INCAPACITATING"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NON_INCAPACITATING]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INJURIES_REPORTED_NOT_EVIDENT]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INJURIES_REPORTED_NOT_EVIDENT"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_REPORTED_NOT_EVIDENT]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INJURIES_NO_INDICATION]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INJURIES_NO_INDICATION"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NO_INDICATION]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[INJURIES_UNKNOWN]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="INJURIES_UNKNOWN"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_UNKNOWN]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[CRASH_HOUR]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -4361,7 +2725,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                         <property
                           dataType="System.Int32"
                           description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
+                          name="NewSortKeyPosition">2</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -4379,7 +2743,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                         <property
                           dataType="System.Int32"
                           description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
+                          name="NewSortKeyPosition">3</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -4397,61 +2761,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                         <property
                           dataType="System.Int32"
                           description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[LATITUDE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LATITUDE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LATITUDE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[LONGITUDE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LONGITUDE"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LONGITUDE]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[LOCATION]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LOCATION"
-                      lineageId="Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LOCATION]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
+                          name="NewSortKeyPosition">4</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -4464,36 +2774,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_RECORD_ID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_RECORD_ID]"
-                      name="CRASH_RECORD_ID">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_RECORD_ID]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE_EST_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE_EST_I]"
-                      name="CRASH_DATE_EST_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_DATE_EST_I]}</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DATE]"
                       codePage="1252"
@@ -4511,597 +2791,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[POSTED_SPEED_LIMIT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[POSTED_SPEED_LIMIT]"
-                      name="POSTED_SPEED_LIMIT">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[POSTED_SPEED_LIMIT]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[TRAFFIC_CONTROL_DEVICE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[TRAFFIC_CONTROL_DEVICE]"
-                      name="TRAFFIC_CONTROL_DEVICE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFIC_CONTROL_DEVICE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DEVICE_CONDITION]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DEVICE_CONDITION]"
-                      name="DEVICE_CONDITION">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DEVICE_CONDITION]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WEATHER_CONDITION]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WEATHER_CONDITION]"
-                      name="WEATHER_CONDITION">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WEATHER_CONDITION]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LIGHTING_CONDITION]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LIGHTING_CONDITION]"
-                      name="LIGHTING_CONDITION">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LIGHTING_CONDITION]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[FIRST_CRASH_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[FIRST_CRASH_TYPE]"
-                      name="FIRST_CRASH_TYPE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[FIRST_CRASH_TYPE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[TRAFFICWAY_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[TRAFFICWAY_TYPE]"
-                      name="TRAFFICWAY_TYPE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[TRAFFICWAY_TYPE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LANE_CNT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LANE_CNT]"
-                      name="LANE_CNT">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LANE_CNT]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ALIGNMENT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ALIGNMENT]"
-                      name="ALIGNMENT">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ALIGNMENT]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ROADWAY_SURFACE_COND]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ROADWAY_SURFACE_COND]"
-                      name="ROADWAY_SURFACE_COND">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROADWAY_SURFACE_COND]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ROAD_DEFECT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ROAD_DEFECT]"
-                      name="ROAD_DEFECT">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[ROAD_DEFECT]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[REPORT_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[REPORT_TYPE]"
-                      name="REPORT_TYPE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[REPORT_TYPE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_TYPE]"
-                      name="CRASH_TYPE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_TYPE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INTERSECTION_RELATED_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INTERSECTION_RELATED_I]"
-                      name="INTERSECTION_RELATED_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INTERSECTION_RELATED_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NOT_RIGHT_OF_WAY_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NOT_RIGHT_OF_WAY_I]"
-                      name="NOT_RIGHT_OF_WAY_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NOT_RIGHT_OF_WAY_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[HIT_AND_RUN_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[HIT_AND_RUN_I]"
-                      name="HIT_AND_RUN_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[HIT_AND_RUN_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DAMAGE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DAMAGE]"
-                      name="DAMAGE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DAMAGE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DATE_POLICE_NOTIFIED]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DATE_POLICE_NOTIFIED]"
-                      name="DATE_POLICE_NOTIFIED">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DATE_POLICE_NOTIFIED]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PRIM_CONTRIBUTORY_CAUSE]"
-                      name="PRIM_CONTRIBUTORY_CAUSE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PRIM_CONTRIBUTORY_CAUSE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[SEC_CONTRIBUTORY_CAUSE]"
-                      name="SEC_CONTRIBUTORY_CAUSE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[SEC_CONTRIBUTORY_CAUSE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STREET_NO]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STREET_NO]"
-                      name="STREET_NO">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NO]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STREET_DIRECTION]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STREET_DIRECTION]"
-                      name="STREET_DIRECTION">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_DIRECTION]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STREET_NAME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STREET_NAME]"
-                      name="STREET_NAME">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STREET_NAME]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[BEAT_OF_OCCURRENCE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[BEAT_OF_OCCURRENCE]"
-                      name="BEAT_OF_OCCURRENCE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[BEAT_OF_OCCURRENCE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PHOTOS_TAKEN_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[PHOTOS_TAKEN_I]"
-                      name="PHOTOS_TAKEN_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[PHOTOS_TAKEN_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STATEMENTS_TAKEN_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[STATEMENTS_TAKEN_I]"
-                      name="STATEMENTS_TAKEN_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[STATEMENTS_TAKEN_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DOORING_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[DOORING_I]"
-                      name="DOORING_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[DOORING_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WORK_ZONE_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WORK_ZONE_I]"
-                      name="WORK_ZONE_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WORK_ZONE_TYPE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WORK_ZONE_TYPE]"
-                      name="WORK_ZONE_TYPE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORK_ZONE_TYPE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WORKERS_PRESENT_I]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[WORKERS_PRESENT_I]"
-                      name="WORKERS_PRESENT_I">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[WORKERS_PRESENT_I]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NUM_UNITS]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[NUM_UNITS]"
-                      name="NUM_UNITS">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[NUM_UNITS]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[MOST_SEVERE_INJURY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[MOST_SEVERE_INJURY]"
-                      name="MOST_SEVERE_INJURY">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[MOST_SEVERE_INJURY]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_TOTAL]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_TOTAL]"
-                      name="INJURIES_TOTAL">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_TOTAL]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_FATAL]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_FATAL]"
-                      name="INJURIES_FATAL">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_FATAL]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_INCAPACITATING]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_INCAPACITATING]"
-                      name="INJURIES_INCAPACITATING">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_INCAPACITATING]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_NON_INCAPACITATING]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_NON_INCAPACITATING]"
-                      name="INJURIES_NON_INCAPACITATING">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NON_INCAPACITATING]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_REPORTED_NOT_EVIDENT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_REPORTED_NOT_EVIDENT]"
-                      name="INJURIES_REPORTED_NOT_EVIDENT">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_REPORTED_NOT_EVIDENT]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_NO_INDICATION]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_NO_INDICATION]"
-                      name="INJURIES_NO_INDICATION">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_NO_INDICATION]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_UNKNOWN]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[INJURIES_UNKNOWN]"
-                      name="INJURIES_UNKNOWN">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[INJURIES_UNKNOWN]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_HOUR]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_HOUR]"
-                      name="CRASH_HOUR">
+                      name="CRASH_HOUR"
+                      sortKeyPosition="2">
                       <properties>
                         <property
                           containsID="true"
@@ -5116,7 +2812,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       dataType="str"
                       length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_DAY_OF_WEEK]"
-                      name="CRASH_DAY_OF_WEEK">
+                      name="CRASH_DAY_OF_WEEK"
+                      sortKeyPosition="3">
                       <properties>
                         <property
                           containsID="true"
@@ -5131,58 +2828,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       dataType="str"
                       length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[CRASH_MONTH]"
-                      name="CRASH_MONTH">
+                      name="CRASH_MONTH"
+                      sortKeyPosition="4">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[CRASH_MONTH]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LATITUDE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LATITUDE]"
-                      name="LATITUDE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LATITUDE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LONGITUDE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LONGITUDE]"
-                      name="LONGITUDE">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LONGITUDE]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LOCATION]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[LOCATION]"
-                      name="LOCATION">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\FLAT FILE TIME.Outputs[Flat File Source Output].Columns[LOCATION]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -5290,24 +2943,92 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="99,42"
-          Id="Package\Data Flow Task\Sort"
-          TopLeft="504,192" />
-        <NodeLayout
           Size="163,42"
           Id="Package\Data Flow Task\Script Component"
-          TopLeft="472,344" />
+          TopLeft="459,348" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Data Flow Task\Sort"
+          TopLeft="724,206" />
         <NodeLayout
           Size="154,42"
           Id="Package\Data Flow Task\FLAT FILE TIME"
-          TopLeft="482,53" />
+          TopLeft="702,67" />
         <NodeLayout
           Size="177,42"
           Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="468,468" />
+          TopLeft="688,482" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output]"
+          TopLeft="773.5,248">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-233,100"
+              Start="0,0"
+              End="-233,92.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46"
+                    Point2="0,50"
+                    Point3="-4,50" />
+                  <mssgle:LineSegment
+                    End="-229,50" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-229,50"
+                    Point2="-233,50"
+                    Point3="-233,54" />
+                  <mssgle:LineSegment
+                    End="-233,92.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Output 0]"
+          TopLeft="540.5,390">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="236,92"
+              Start="0,0"
+              End="236,84.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,42"
+                    Point2="0,46"
+                    Point3="4,46" />
+                  <mssgle:LineSegment
+                    End="232,46" />
+                  <mssgle:CubicBezierSegment
+                    Point1="232,46"
+                    Point2="236,46"
+                    Point3="236,50" />
+                  <mssgle:LineSegment
+                    End="236,84.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="556.25,95">
+          TopLeft="776.25,109">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5319,50 +3040,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,89.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output]"
-          TopLeft="553.5,234">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,110"
-              Start="0,0"
-              End="0,102.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,102.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Output 0]"
-          TopLeft="555,386">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,82"
-              Start="0,0"
-              End="0,74.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,74.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
